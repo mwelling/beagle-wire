@@ -1,6 +1,7 @@
 ﻿CERN Open Hardware Licence v1.2
 
 Copyright 2017 QWERTY Embedded Design, LLC
+Patryk Mezydlo <mezydlo.p@gmail.com>
 
 Licensed under CERN OHL v.2
 http://ohwr.org/cernohl
