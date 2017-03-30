@@ -16,8 +16,8 @@ The BeagleWire is an FPGA development platform that has been designed for use wi
 Hardware specification is not complete and may be changed.
 
 ## License
-Copyright 2017 QWERTY Embedded Design, LLC
+Copyright 2017 QWERTY Embedded Design, LLC<br>
 Patryk Mezydlo <mezydlo.p@gmail.com>
 
-BeagleWire is licensed under CERN Open Hardware Licence v1.2 License.
+BeagleWire is licensed under CERN Open Hardware Licence v1.2<br>
 [License Information](http://ohwr.org/cernohl)
