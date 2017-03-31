@@ -28,7 +28,6 @@ LIBS:siliconi
 LIBS:opto
 LIBS:atmel
 LIBS:contrib
-LIBS:Lattice_iCE_FPGA
 LIBS:beagle-wire-cache
 EELAYER 25 0
 EELAYER END

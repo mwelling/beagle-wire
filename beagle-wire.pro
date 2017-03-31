@@ -1,4 +1,4 @@
-update=Tue 28 Mar 2017 08:43:38 PM CDT
+update=Fri 31 Mar 2017 02:48:09 PM CDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,4 +58,3 @@ LibName26=siliconi
 LibName27=opto
 LibName28=atmel
 LibName29=contrib
-LibName30=/home/michael/projects/kicad/libs/KiCad-Schematic-Symbol-Libraries/Lattice_iCE_FPGA
