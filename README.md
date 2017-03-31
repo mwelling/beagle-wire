@@ -17,6 +17,7 @@ Hardware specification is not complete and may be changed.
 
 ## License
 Copyright 2017 QWERTY Embedded Design, LLC<br>
+Michael Welling <mwelling@ieee.org><br>
 Patryk Mezydlo <mezydlo.p@gmail.com>
 
 BeagleWire is licensed under CERN Open Hardware Licence v1.2<br>
