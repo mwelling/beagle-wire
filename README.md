@@ -9,7 +9,7 @@ The BeagleWire is an FPGA development platform that has been designed for use wi
 - 32 MB SDRAM,
 - GPIO,
 - 8x Leds,
-- 50Mhz external clock,
+- 100Mhz external clock,
 - 4 layer PCB optimized design to support maximum performance for high bandwidth applications,
 - compatible with BeagleBone Black, BeagleBone Black Wireless, SeeedStudio BeagleBone Green, SeeedStudio BeagleBone Green Wireless, SanCloud BeagleBone Enhanced, element14 BeagleBone Black Industrial,
 
