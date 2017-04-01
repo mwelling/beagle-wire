@@ -1,4 +1,4 @@
-update=Sat 01 Apr 2017 02:06:55 PM CDT
+update=sob, 1 kwi 2017, 23:21:11
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../kicad-library/library
+LibDir=../kicad-library
 [eeschema/libraries]
 LibName1=valves
 LibName2=power
