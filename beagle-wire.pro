@@ -1,4 +1,4 @@
-update=Fri 31 Mar 2017 02:48:09 PM CDT
+update=sob, 1 kwi 2017, 16:35:22
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../kicad-library/library
 [eeschema/libraries]
 LibName1=valves
 LibName2=power
@@ -51,10 +51,11 @@ LibName19=intel
 LibName20=audio
 LibName21=interface
 LibName22=digital-audio
-LibName23=philips
-LibName24=display
-LibName25=cypress
-LibName26=siliconi
-LibName27=opto
-LibName28=atmel
-LibName29=contrib
+LibName23=/home/pmezydlo/pcb_work/kicad-library/library/memory
+LibName24=philips
+LibName25=display
+LibName26=cypress
+LibName27=siliconi
+LibName28=opto
+LibName29=atmel
+LibName30=contrib
