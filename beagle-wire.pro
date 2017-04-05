@@ -1,4 +1,4 @@
-update=sob, 1 kwi 2017, 23:21:11
+update=Sat 01 Apr 2017 07:51:06 PM CDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -111,3 +111,4 @@ LibName79=rfcom
 LibName80=RFSolutions
 LibName81=sensors
 LibName82=silabs
+LibName83=switches
