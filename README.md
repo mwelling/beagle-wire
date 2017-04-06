@@ -7,13 +7,15 @@ The BeagleWire is an FPGA development platform that has been designed for use wi
 ![alt tag](https://raw.githubusercontent.com/mwelling/beagle-wire/master/beagle-wire.png)
 
 ## Hardware Specification
-- FPGA: Lattice iCE40HX8K
-- 32 MB SDRAM,
-- GPIO,
-- 8x Leds,
-- 100Mhz external clock,
-- 4 layer PCB optimized design to support maximum performance for high bandwidth applications,
-- compatible with BeagleBone Black, BeagleBone Black Wireless, SeeedStudio BeagleBone Green, SeeedStudio BeagleBone Green Wireless, SanCloud BeagleBone Enhanced, element14 BeagleBone Black Industrial,
+- FPGA: Lattice iCE40HX4K
+- 32 MB SDRAM
+- GPIO
+- 4x LEDs
+- 2 user push buttons
+- 2 input DIP switch
+- 100Mhz external clock
+- 4 layer PCB optimized design to support maximum performance for high bandwidth applications
+- compatible with BeagleBone Black, BeagleBone Black Wireless, SeeedStudio BeagleBone Green, SeeedStudio BeagleBone Green Wireless, SanCloud BeagleBone Enhanced, element14 BeagleBone Black Industrial
 
 Hardware specification is not complete and may be changed.
 
