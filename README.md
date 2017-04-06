@@ -11,6 +11,8 @@ The BeagleWire is an FPGA development platform that has been designed for use wi
 - 32 MB SDRAM
 - GPIO
 - 4x LEDs
+- 4x PMOD connectors
+- 4x Grove connectors
 - 2 user push buttons
 - 2 input DIP switch
 - 100Mhz external clock
