@@ -36,7 +36,6 @@ LIBS:Altera
 LIBS:analog_devices
 LIBS:battery_management
 LIBS:bbd
-LIBS:bosch
 LIBS:brooktre
 LIBS:cmos_ieee
 LIBS:dc-dc
@@ -47,11 +46,8 @@ LIBS:ftdi
 LIBS:gennum
 LIBS:graphic
 LIBS:hc11
-LIBS:intersil
 LIBS:ir
 LIBS:Lattice
-LIBS:leds
-LIBS:LEM
 LIBS:logo
 LIBS:maxim
 LIBS:mechanical
@@ -60,14 +56,11 @@ LIBS:microchip_pic10mcu
 LIBS:microchip_pic12mcu
 LIBS:microchip_pic16mcu
 LIBS:microchip_pic18mcu
-LIBS:microchip_pic24mcu
 LIBS:microchip_pic32mcu
-LIBS:modules
 LIBS:motor_drivers
 LIBS:motors
 LIBS:msp430
 LIBS:nordicsemi
-LIBS:nxp
 LIBS:nxp_armmcu
 LIBS:onsemi
 LIBS:Oscillators
@@ -77,7 +70,6 @@ LIBS:pspice
 LIBS:references
 LIBS:relays
 LIBS:rfcom
-LIBS:RFSolutions
 LIBS:sensors
 LIBS:silabs
 LIBS:switches
@@ -371,49 +363,49 @@ Text GLabel 8800 4950 0    50   Input ~ 0
 SPI_SS
 Text GLabel 8800 4750 0    50   Input ~ 0
 SPI_MOSI
-Text GLabel 4600 4300 0    50   Input ~ 0
+Text GLabel 4600 6900 0    50   Input ~ 0
 GPMC_AD6
-Text GLabel 4600 4400 0    50   Input ~ 0
+Text GLabel 4600 6700 0    50   Input ~ 0
 GPMC_AD2
-Text GLabel 4600 4500 0    50   Input ~ 0
+Text GLabel 4600 6500 0    50   Input ~ 0
 GPMC_ADVN
-Text GLabel 4600 4600 0    50   Input ~ 0
+Text GLabel 4600 6300 0    50   Input ~ 0
 GPMC_BE0N
-Text GLabel 4600 4700 0    50   Input ~ 0
+Text GLabel 4600 6100 0    50   Input ~ 0
 GPMC_AD13
-Text GLabel 4600 4800 0    50   Input ~ 0
+Text GLabel 4600 5900 0    50   Input ~ 0
 GPMC_AD9
-Text GLabel 4600 4900 0    50   Input ~ 0
+Text GLabel 4600 5700 0    50   Input ~ 0
 GPMC_AD15
-Text GLabel 4600 5000 0    50   Input ~ 0
+Text GLabel 4600 5500 0    50   Input ~ 0
 GPMC_AD11
-Text GLabel 4600 5100 0    50   Input ~ 0
+Text GLabel 4600 5300 0    50   Input ~ 0
 GPMC_AD8
 Text GLabel 4600 5200 0    50   Input ~ 0
 GPMC_CSN1
-Text GLabel 4600 5300 0    50   Input ~ 0
+Text GLabel 4600 5000 0    50   Input ~ 0
 GPMC_AD4
-Text GLabel 4600 5400 0    50   Input ~ 0
+Text GLabel 4600 4800 0    50   Input ~ 0
 GPMC_AD0
-Text GLabel 4600 5500 0    50   Input ~ 0
+Text GLabel 4600 6800 0    50   Input ~ 0
 GPMC_AD7
-Text GLabel 4600 5600 0    50   Input ~ 0
+Text GLabel 4600 6600 0    50   Input ~ 0
 GPMC_AD3
-Text GLabel 4600 5700 0    50   Input ~ 0
-GPMC_OEN
-Text GLabel 4600 5800 0    50   Input ~ 0
-GPMC_WEIN
-Text GLabel 4600 5900 0    50   Input ~ 0
-GPMC_AD12
-Text GLabel 4600 6000 0    50   Input ~ 0
-GPMC_AD10
-Text GLabel 4600 6100 0    50   Input ~ 0
-GPMC_AD14
-Text GLabel 4600 6200 0    50   Input ~ 0
-GPMC_CLK
-Text GLabel 4600 6300 0    50   Input ~ 0
-GPMC_AD5
 Text GLabel 4600 6400 0    50   Input ~ 0
+GPMC_OEN
+Text GLabel 4600 6200 0    50   Input ~ 0
+GPMC_WEIN
+Text GLabel 4600 6000 0    50   Input ~ 0
+GPMC_AD12
+Text GLabel 4600 5800 0    50   Input ~ 0
+GPMC_AD10
+Text GLabel 4600 5600 0    50   Input ~ 0
+GPMC_AD14
+Text GLabel 4600 5400 0    50   Input ~ 0
+GPMC_CLK
+Text GLabel 4600 5100 0    50   Input ~ 0
+GPMC_AD5
+Text GLabel 4600 4900 0    50   Input ~ 0
 GPMC_AD1
 $Comp
 L M25PX32-VMW U3
@@ -886,13 +878,13 @@ Text GLabel 8000 8750 2    50   Input ~ 0
 OSC_OUT
 Text GLabel 7050 2350 0    50   Input ~ 0
 OSC_OUT
-Text GLabel 4600 6800 0    50   Input ~ 0
+Text GLabel 9100 2300 0    50   Input ~ 0
 USER_LED0
-Text GLabel 4600 6700 0    50   Input ~ 0
+Text GLabel 9100 2200 0    50   Input ~ 0
 USER_LED1
-Text GLabel 4600 6600 0    50   Input ~ 0
+Text GLabel 9100 2100 0    50   Input ~ 0
 USER_LED2
-Text GLabel 4600 6500 0    50   Input ~ 0
+Text GLabel 9100 2000 0    50   Input ~ 0
 USER_LED3
 $Comp
 L D D9
@@ -1030,12 +1022,12 @@ $EndComp
 $Comp
 L +3V3 #PWR036
 U 1 1 58E0D808
-P 6450 3100
-F 0 "#PWR036" H 6450 2950 50  0001 C CNN
-F 1 "+3V3" H 6450 3240 50  0000 C CNN
-F 2 "" H 6450 3100 50  0001 C CNN
-F 3 "" H 6450 3100 50  0001 C CNN
-	1    6450 3100
+P 6100 3100
+F 0 "#PWR036" H 6100 2950 50  0001 C CNN
+F 1 "+3V3" H 6100 3240 50  0000 C CNN
+F 2 "" H 6100 3100 50  0001 C CNN
+F 3 "" H 6100 3100 50  0001 C CNN
+	1    6100 3100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1063,12 +1055,12 @@ $EndComp
 $Comp
 L +3V3 #PWR039
 U 1 1 58E0EEBD
-P 8500 3750
-F 0 "#PWR039" H 8500 3600 50  0001 C CNN
-F 1 "+3V3" H 8500 3890 50  0000 C CNN
-F 2 "" H 8500 3750 50  0001 C CNN
-F 3 "" H 8500 3750 50  0001 C CNN
-	1    8500 3750
+P 8200 3750
+F 0 "#PWR039" H 8200 3600 50  0001 C CNN
+F 1 "+3V3" H 8200 3890 50  0000 C CNN
+F 2 "" H 8200 3750 50  0001 C CNN
+F 3 "" H 8200 3750 50  0001 C CNN
+	1    8200 3750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1818,37 +1810,37 @@ F 3 "" H 15950 2750 60  0000 C CNN
 	1    15950 2750
 	0    1    1    0   
 $EndComp
-Text GLabel 9100 1000 0    50   Input ~ 0
+Text GLabel 9100 2700 0    50   Input ~ 0
 PMOD1_A1
-Text GLabel 9100 1100 0    50   Input ~ 0
+Text GLabel 9100 2900 0    50   Input ~ 0
 PMOD1_A2
-Text GLabel 9100 1200 0    50   Input ~ 0
+Text GLabel 9100 3100 0    50   Input ~ 0
 PMOD1_A3
-Text GLabel 9100 1300 0    50   Input ~ 0
+Text GLabel 9100 3300 0    50   Input ~ 0
 PMOD1_A4
-Text GLabel 9100 1400 0    50   Input ~ 0
+Text GLabel 9100 3600 0    50   Input ~ 0
 PMOD2_A1
-Text GLabel 9100 1500 0    50   Input ~ 0
+Text GLabel 7050 1350 0    50   Input ~ 0
 PMOD2_A2
-Text GLabel 9100 1600 0    50   Input ~ 0
+Text GLabel 7050 1550 0    50   Input ~ 0
 PMOD2_A3
-Text GLabel 9100 1700 0    50   Input ~ 0
+Text GLabel 7050 1750 0    50   Input ~ 0
 PMOD2_A4
-Text GLabel 9100 1800 0    50   Input ~ 0
+Text GLabel 9100 2600 0    50   Input ~ 0
 PMOD1_B1
-Text GLabel 9100 1900 0    50   Input ~ 0
+Text GLabel 9100 2800 0    50   Input ~ 0
 PMOD1_B2
-Text GLabel 9100 2000 0    50   Input ~ 0
+Text GLabel 9100 3000 0    50   Input ~ 0
 PMOD1_B3
-Text GLabel 9100 2100 0    50   Input ~ 0
+Text GLabel 9100 3200 0    50   Input ~ 0
 PMOD1_B4
-Text GLabel 9100 2200 0    50   Input ~ 0
+Text GLabel 9100 3700 0    50   Input ~ 0
 PMOD2_B1
-Text GLabel 9100 2300 0    50   Input ~ 0
+Text GLabel 7050 1450 0    50   Input ~ 0
 PMOD2_B2
-Text GLabel 9100 2400 0    50   Input ~ 0
+Text GLabel 7050 1650 0    50   Input ~ 0
 PMOD2_B3
-Text GLabel 9100 2500 0    50   Input ~ 0
+Text GLabel 7050 1850 0    50   Input ~ 0
 PMOD2_B4
 Text GLabel 11500 1350 0    50   Input ~ 0
 SDRAM_A0
@@ -2428,9 +2420,9 @@ Text GLabel 13550 7850 2    50   Input ~ 0
 USER_BTN0
 Text GLabel 13550 8050 2    50   Input ~ 0
 USER_BTN1
-Text GLabel 7150 4400 0    50   Input ~ 0
+Text GLabel 9100 1800 0    50   Input ~ 0
 USER_BTN1
-Text GLabel 7150 4300 0    50   Input ~ 0
+Text GLabel 9100 1900 0    50   Input ~ 0
 USER_BTN0
 $Comp
 L R R24
@@ -2771,71 +2763,71 @@ Text GLabel 15000 7150 0    50   Input ~ 0
 GROVE2_IO0
 Text GLabel 15000 7250 0    50   Input ~ 0
 GROVE2_IO1
-Text GLabel 9100 2600 0    50   Input ~ 0
+Text GLabel 7050 1950 0    50   Input ~ 0
 GROVE1_IO0
-Text GLabel 9100 2700 0    50   Input ~ 0
+Text GLabel 7050 2050 0    50   Input ~ 0
 GROVE1_IO1
-Text GLabel 9100 2800 0    50   Input ~ 0
+Text GLabel 7050 2150 0    50   Input ~ 0
 GROVE2_IO0
-Text GLabel 9100 2900 0    50   Input ~ 0
+Text GLabel 7050 2250 0    50   Input ~ 0
 GROVE2_IO1
-Text GLabel 9100 3100 0    50   Input ~ 0
+Text GLabel 7150 6900 0    50   Input ~ 0
 GROVE3_IO1
-Text GLabel 9100 3000 0    50   Input ~ 0
+Text GLabel 7150 6800 0    50   Input ~ 0
 GROVE3_IO0
-Text GLabel 9100 3300 0    50   Input ~ 0
+Text GLabel 7150 7100 0    50   Input ~ 0
 GROVE4_IO1
-Text GLabel 9100 3200 0    50   Input ~ 0
+Text GLabel 7150 7000 0    50   Input ~ 0
 GROVE4_IO0
-Text GLabel 7150 5200 0    50   Input ~ 0
+Text GLabel 7150 5000 0    50   Input ~ 0
 SDRAM_D0
 Text GLabel 7150 5100 0    50   Input ~ 0
 SDRAM_D1
-Text GLabel 7150 5000 0    50   Input ~ 0
+Text GLabel 7150 5200 0    50   Input ~ 0
 SDRAM_D2
-Text GLabel 7150 4900 0    50   Input ~ 0
-SDRAM_D3
-Text GLabel 7150 4800 0    50   Input ~ 0
-SDRAM_D4
-Text GLabel 7150 4700 0    50   Input ~ 0
-SDRAM_D5
-Text GLabel 7150 4600 0    50   Input ~ 0
-SDRAM_D6
-Text GLabel 7150 4500 0    50   Input ~ 0
-SDRAM_D7
 Text GLabel 7150 5300 0    50   Input ~ 0
-SDRAM_A0
-Text GLabel 7150 5400 0    50   Input ~ 0
-SDRAM_A1
-Text GLabel 7150 5500 0    50   Input ~ 0
-SDRAM_A2
-Text GLabel 7150 5600 0    50   Input ~ 0
-SDRAM_A3
-Text GLabel 7150 5700 0    50   Input ~ 0
-SDRAM_A4
-Text GLabel 7150 5800 0    50   Input ~ 0
-SDRAM_A5
-Text GLabel 7150 5900 0    50   Input ~ 0
-SDRAM_A6
-Text GLabel 7150 6000 0    50   Input ~ 0
-SDRAM_A7
+SDRAM_D3
+Text GLabel 7050 2750 0    50   Input ~ 0
+SDRAM_D4
+Text GLabel 7050 2650 0    50   Input ~ 0
+SDRAM_D5
+Text GLabel 7050 2550 0    50   Input ~ 0
+SDRAM_D6
+Text GLabel 7050 2450 0    50   Input ~ 0
+SDRAM_D7
 Text GLabel 7150 6100 0    50   Input ~ 0
-SDRAM_A8
+SDRAM_A0
 Text GLabel 7150 6200 0    50   Input ~ 0
-SDRAM_A9
+SDRAM_A1
 Text GLabel 7150 6300 0    50   Input ~ 0
-SDRAM_A10
+SDRAM_A2
 Text GLabel 7150 6400 0    50   Input ~ 0
+SDRAM_A3
+Text GLabel 7150 4300 0    50   Input ~ 0
+SDRAM_A4
+Text GLabel 7150 4400 0    50   Input ~ 0
+SDRAM_A5
+Text GLabel 7150 4500 0    50   Input ~ 0
+SDRAM_A6
+Text GLabel 7150 4600 0    50   Input ~ 0
+SDRAM_A7
+Text GLabel 7150 4700 0    50   Input ~ 0
+SDRAM_A8
+Text GLabel 7150 4800 0    50   Input ~ 0
+SDRAM_A9
+Text GLabel 7150 6000 0    50   Input ~ 0
+SDRAM_A10
+Text GLabel 7150 4900 0    50   Input ~ 0
 SDRAM_A11
-Text GLabel 7150 6600 0    50   Input ~ 0
+Text GLabel 7150 5800 0    50   Input ~ 0
 SDRAM_BA0
-Text GLabel 7150 6700 0    50   Input ~ 0
+Text GLabel 7150 5900 0    50   Input ~ 0
 SDRAM_BA1
-Text GLabel 7150 6500 0    50   Input ~ 0
+Text GLabel 7050 2850 0    50   Input ~ 0
 SDRAM_A12
-Text GLabel 7050 1350 0    50   Input ~ 0
+Text GLabel 9100 3400 0    50   Input ~ 0
 BB_IRQ_FPGA_TO_ARM
-Text GLabel 7050 1450 0    50   Input ~ 0
+Text GLabel 9100 3500 0    50   Input ~ 0
 BB_IRQ_ARM_TO_FPGA
 Text GLabel 2100 2250 0    50   Input ~ 0
 BB_IRQ_FPGA_TO_ARM
@@ -2845,9 +2837,9 @@ Text GLabel 13100 4650 2    50   Input ~ 0
 USER_SW0
 Text GLabel 13100 4750 2    50   Input ~ 0
 USER_SW1
-Text GLabel 7150 7100 0    50   Input ~ 0
+Text GLabel 9100 2400 0    50   Input ~ 0
 USER_SW0
-Text GLabel 7150 7000 0    50   Input ~ 0
+Text GLabel 9100 2500 0    50   Input ~ 0
 USER_SW1
 $Comp
 L +3V3 #PWR0116
@@ -3002,46 +2994,46 @@ F 3 "" H 15950 4750 60  0000 C CNN
 	1    15950 4750
 	0    1    1    0   
 $EndComp
-Text GLabel 7050 2250 0    50   Input ~ 0
+Text GLabel 7150 6600 0    50   Input ~ 0
 PMOD3_B1
-Text GLabel 7050 2150 0    50   Input ~ 0
+Text GLabel 4600 4300 0    50   Input ~ 0
 PMOD3_B2
-Text GLabel 7050 2050 0    50   Input ~ 0
+Text GLabel 4600 4500 0    50   Input ~ 0
 PMOD3_B3
-Text GLabel 7050 1950 0    50   Input ~ 0
+Text GLabel 4600 4700 0    50   Input ~ 0
 PMOD3_B4
-Text GLabel 7050 1550 0    50   Input ~ 0
+Text GLabel 7150 6500 0    50   Input ~ 0
 PMOD3_A1
-Text GLabel 7050 1650 0    50   Input ~ 0
+Text GLabel 7150 6700 0    50   Input ~ 0
 PMOD3_A2
-Text GLabel 7050 1750 0    50   Input ~ 0
+Text GLabel 4600 4400 0    50   Input ~ 0
 PMOD3_A3
-Text GLabel 7050 1850 0    50   Input ~ 0
+Text GLabel 4600 4600 0    50   Input ~ 0
 PMOD3_A4
-Text GLabel 7050 2450 0    50   Input ~ 0
+Text GLabel 9100 1600 0    50   Input ~ 0
 PMOD4_A1
-Text GLabel 7050 2550 0    50   Input ~ 0
+Text GLabel 9100 1400 0    50   Input ~ 0
 PMOD4_A2
-Text GLabel 7050 2650 0    50   Input ~ 0
+Text GLabel 9100 1200 0    50   Input ~ 0
 PMOD4_A3
-Text GLabel 7050 2750 0    50   Input ~ 0
+Text GLabel 9100 1000 0    50   Input ~ 0
 PMOD4_A4
-Text GLabel 7050 3150 0    50   Input ~ 0
+Text GLabel 9100 1700 0    50   Input ~ 0
 PMOD4_B1
-Text GLabel 7050 3050 0    50   Input ~ 0
+Text GLabel 9100 1500 0    50   Input ~ 0
 PMOD4_B2
-Text GLabel 7050 2950 0    50   Input ~ 0
+Text GLabel 9100 1300 0    50   Input ~ 0
 PMOD4_B3
-Text GLabel 7050 2850 0    50   Input ~ 0
+Text GLabel 9100 1100 0    50   Input ~ 0
 PMOD4_B4
 Wire Wire Line
 	2700 3250 2850 3250
 Wire Wire Line
-	2850 3550 2850 3250
+	2850 3250 2850 3550
 Wire Wire Line
-	2050 3550 2850 3550
+	2850 3550 2050 3550
 Wire Wire Line
-	2050 3250 2050 3550
+	2050 3550 2050 3250
 Wire Wire Line
 	2050 3250 2200 3250
 Wire Wire Line
@@ -3407,7 +3399,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 7050 2650 7050
 Wire Wire Line
-	6450 3100 6450 3250
+	6100 3100 6100 3250
 Wire Wire Line
 	6450 7200 6450 7100
 Wire Wire Line
@@ -3415,9 +3407,9 @@ Wire Wire Line
 Wire Wire Line
 	4000 7000 4700 7000
 Wire Wire Line
-	6450 3250 7200 3250
+	6100 3250 7200 3250
 Wire Wire Line
-	8500 3800 9200 3800
+	8200 3800 9200 3800
 Wire Wire Line
 	4350 9900 4350 10000
 Wire Wire Line
@@ -4013,7 +4005,7 @@ Wire Wire Line
 Wire Wire Line
 	9200 3700 9100 3700
 Wire Wire Line
-	8500 3750 8500 3800
+	8200 3750 8200 3800
 Wire Wire Line
 	7150 6100 7200 6100
 Wire Wire Line
@@ -4151,19 +4143,19 @@ Wire Wire Line
 	7200 1750 7050 1750
 Wire Wire Line
 	2750 7950 2750 9200
-Text GLabel 9100 3400 0    50   Input ~ 0
+Text GLabel 7050 3050 0    50   Input ~ 0
 SDRAM_CLK
-Text GLabel 9100 3500 0    50   Input ~ 0
+Text GLabel 7050 2950 0    50   Input ~ 0
 SDRAM_CKE
-Text GLabel 9100 3600 0    50   Input ~ 0
+Text GLabel 7150 5600 0    50   Input ~ 0
 SDRAM_RAS
-Text GLabel 9100 3700 0    50   Input ~ 0
+Text GLabel 7150 5500 0    50   Input ~ 0
 SDRAM_CAS
-Text GLabel 7150 6900 0    50   Input ~ 0
+Text GLabel 7150 5400 0    50   Input ~ 0
 SDRAM_WE
-Text GLabel 7150 6800 0    50   Input ~ 0
+Text GLabel 7150 5700 0    50   Input ~ 0
 SDRAM_CS
-Text GLabel 4600 6900 0    50   Input ~ 0
+Text GLabel 7050 3150 0    50   Input ~ 0
 SDRAM_DQM
 Wire Wire Line
 	4600 6900 4700 6900
@@ -4211,4 +4203,48 @@ Wire Wire Line
 	2100 2150 2200 2150
 Wire Wire Line
 	2100 2350 2200 2350
+NoConn ~ 2650 6750
+NoConn ~ 5400 2050
+NoConn ~ 5400 2350
+NoConn ~ 5400 2450
+NoConn ~ 5400 2550
+NoConn ~ 5400 2650
+NoConn ~ 4900 2450
+NoConn ~ 4900 2550
+NoConn ~ 4900 2650
+NoConn ~ 4900 2750
+NoConn ~ 4900 2850
+NoConn ~ 4900 2950
+NoConn ~ 4900 3050
+NoConn ~ 4900 3150
+NoConn ~ 4900 3250
+NoConn ~ 4900 3350
+NoConn ~ 5400 3350
+NoConn ~ 5400 3250
+NoConn ~ 5400 3150
+NoConn ~ 5400 3050
+NoConn ~ 5400 2950
+NoConn ~ 5400 2850
+NoConn ~ 5400 2750
+NoConn ~ 2700 3150
+NoConn ~ 2700 3050
+NoConn ~ 2700 2950
+NoConn ~ 2700 2850
+NoConn ~ 2700 2350
+NoConn ~ 2700 2250
+NoConn ~ 2700 2150
+NoConn ~ 2700 1950
+NoConn ~ 2700 1850
+NoConn ~ 2700 1750
+NoConn ~ 2200 1650
+NoConn ~ 2200 1750
+NoConn ~ 2200 1850
+NoConn ~ 2200 1950
+NoConn ~ 2200 2750
+NoConn ~ 2200 2850
+NoConn ~ 2200 3050
+NoConn ~ 2200 2950
+NoConn ~ 2200 3150
+NoConn ~ 2700 1250
+NoConn ~ 2200 1250
 $EndSCHEMATC
