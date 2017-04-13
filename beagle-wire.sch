@@ -339,49 +339,49 @@ Text GLabel 8800 4950 0    50   Input ~ 0
 SPI_SS
 Text GLabel 8800 4750 0    50   Input ~ 0
 SPI_MOSI
-Text GLabel 9100 2900 0    50   Input ~ 0
+Text GLabel 9100 2800 0    50   Input ~ 0
 GPMC_AD6
-Text GLabel 9100 2700 0    50   Input ~ 0
+Text GLabel 9100 2600 0    50   Input ~ 0
 GPMC_AD2
-Text GLabel 9100 2500 0    50   Input ~ 0
+Text GLabel 9100 2400 0    50   Input ~ 0
 GPMC_ADVN
-Text GLabel 9100 2300 0    50   Input ~ 0
+Text GLabel 9100 2200 0    50   Input ~ 0
 GPMC_BE0N
-Text GLabel 9100 1900 0    50   Input ~ 0
-GPMC_AD13
-Text GLabel 9100 1500 0    50   Input ~ 0
-GPMC_AD9
 Text GLabel 9100 1200 0    50   Input ~ 0
-GPMC_AD15
+GPMC_AD13
+Text GLabel 9100 1100 0    50   Input ~ 0
+GPMC_AD9
 Text GLabel 4600 6800 0    50   Input ~ 0
+GPMC_AD15
+Text GLabel 4600 6600 0    50   Input ~ 0
 GPMC_AD11
 Text GLabel 4600 6500 0    50   Input ~ 0
 GPMC_AD8
 Text GLabel 4600 6400 0    50   Input ~ 0
 GPMC_CSN1
-Text GLabel 4600 6200 0    50   Input ~ 0
+Text GLabel 4600 6100 0    50   Input ~ 0
 GPMC_AD4
 Text GLabel 4600 6000 0    50   Input ~ 0
 GPMC_AD0
-Text GLabel 9100 2800 0    50   Input ~ 0
+Text GLabel 9100 2900 0    50   Input ~ 0
 GPMC_AD7
-Text GLabel 9100 2600 0    50   Input ~ 0
+Text GLabel 9100 2700 0    50   Input ~ 0
 GPMC_AD3
-Text GLabel 9100 2400 0    50   Input ~ 0
+Text GLabel 9100 2500 0    50   Input ~ 0
 GPMC_OEN
-Text GLabel 9100 2100 0    50   Input ~ 0
+Text GLabel 9100 2300 0    50   Input ~ 0
 GPMC_WEIN
-Text GLabel 9100 1700 0    50   Input ~ 0
+Text GLabel 9100 2100 0    50   Input ~ 0
 GPMC_AD12
 Text GLabel 9100 1000 0    50   Input ~ 0
 GPMC_AD10
-Text GLabel 9100 1400 0    50   Input ~ 0
+Text GLabel 4600 6900 0    50   Input ~ 0
 GPMC_AD14
-Text GLabel 4600 6600 0    50   Input ~ 0
+Text GLabel 4600 6700 0    50   Input ~ 0
 GPMC_CLK
 Text GLabel 4600 6300 0    50   Input ~ 0
 GPMC_AD5
-Text GLabel 4600 6100 0    50   Input ~ 0
+Text GLabel 4600 6200 0    50   Input ~ 0
 GPMC_AD1
 $Comp
 L M25PX32-VMW U5
@@ -2396,9 +2396,9 @@ Text GLabel 13550 7850 2    50   Input ~ 0
 USER_BTN0
 Text GLabel 13550 8050 2    50   Input ~ 0
 USER_BTN1
-Text GLabel 9100 3000 0    50   Input ~ 0
-USER_BTN1
 Text GLabel 9100 3100 0    50   Input ~ 0
+USER_BTN1
+Text GLabel 9100 3000 0    50   Input ~ 0
 USER_BTN0
 $Comp
 L R R9
@@ -2986,21 +2986,21 @@ Text GLabel 4600 5600 0    50   Input ~ 0
 PMOD3_A3
 Text GLabel 4600 5800 0    50   Input ~ 0
 PMOD3_A4
-Text GLabel 9100 2000 0    50   Input ~ 0
-PMOD4_A1
-Text GLabel 9100 1600 0    50   Input ~ 0
-PMOD4_A2
 Text GLabel 9100 1300 0    50   Input ~ 0
+PMOD4_A1
+Text GLabel 9100 1500 0    50   Input ~ 0
+PMOD4_A2
+Text GLabel 9100 1700 0    50   Input ~ 0
 PMOD4_A3
-Text GLabel 4600 6700 0    50   Input ~ 0
+Text GLabel 9100 1900 0    50   Input ~ 0
 PMOD4_A4
-Text GLabel 9100 2200 0    50   Input ~ 0
+Text GLabel 9100 1400 0    50   Input ~ 0
 PMOD4_B1
-Text GLabel 9100 1800 0    50   Input ~ 0
+Text GLabel 9100 1600 0    50   Input ~ 0
 PMOD4_B2
-Text GLabel 9100 1100 0    50   Input ~ 0
+Text GLabel 9100 1800 0    50   Input ~ 0
 PMOD4_B3
-Text GLabel 4600 6900 0    50   Input ~ 0
+Text GLabel 9100 2000 0    50   Input ~ 0
 PMOD4_B4
 Wire Wire Line
 	2700 3250 2850 3250
