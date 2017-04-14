@@ -357,7 +357,7 @@ Text GLabel 4600 6600 0    50   Input ~ 0
 GPMC_AD11
 Text GLabel 4600 6500 0    50   Input ~ 0
 GPMC_AD8
-Text GLabel 4600 6400 0    50   Input ~ 0
+Text GLabel 4600 6300 0    50   Input ~ 0
 GPMC_CSN1
 Text GLabel 4600 6100 0    50   Input ~ 0
 GPMC_AD4
@@ -379,7 +379,7 @@ Text GLabel 4600 6900 0    50   Input ~ 0
 GPMC_AD14
 Text GLabel 4600 6700 0    50   Input ~ 0
 GPMC_CLK
-Text GLabel 4600 6300 0    50   Input ~ 0
+Text GLabel 4600 6400 0    50   Input ~ 0
 GPMC_AD5
 Text GLabel 4600 6200 0    50   Input ~ 0
 GPMC_AD1
@@ -1794,13 +1794,13 @@ Text GLabel 7050 1850 0    50   Input ~ 0
 PMOD1_A3
 Text GLabel 7050 2050 0    50   Input ~ 0
 PMOD1_A4
-Text GLabel 7050 2150 0    50   Input ~ 0
+Text GLabel 7050 2250 0    50   Input ~ 0
 PMOD2_A1
-Text GLabel 7050 2350 0    50   Input ~ 0
+Text GLabel 7050 2450 0    50   Input ~ 0
 PMOD2_A2
-Text GLabel 7050 2550 0    50   Input ~ 0
+Text GLabel 7050 2650 0    50   Input ~ 0
 PMOD2_A3
-Text GLabel 7050 2750 0    50   Input ~ 0
+Text GLabel 7050 2950 0    50   Input ~ 0
 PMOD2_A4
 Text GLabel 7050 1350 0    50   Input ~ 0
 PMOD1_B1
@@ -1810,13 +1810,13 @@ Text GLabel 7050 1750 0    50   Input ~ 0
 PMOD1_B3
 Text GLabel 7050 1950 0    50   Input ~ 0
 PMOD1_B4
-Text GLabel 7050 2250 0    50   Input ~ 0
+Text GLabel 7050 2150 0    50   Input ~ 0
 PMOD2_B1
-Text GLabel 7050 2450 0    50   Input ~ 0
+Text GLabel 7050 2350 0    50   Input ~ 0
 PMOD2_B2
-Text GLabel 7050 2650 0    50   Input ~ 0
+Text GLabel 7050 2550 0    50   Input ~ 0
 PMOD2_B3
-Text GLabel 7050 2950 0    50   Input ~ 0
+Text GLabel 7050 2750 0    50   Input ~ 0
 PMOD2_B4
 Text GLabel 11500 1350 0    50   Input ~ 0
 SDRAM_A0
@@ -2739,21 +2739,21 @@ Text GLabel 15000 7150 0    50   Input ~ 0
 GROVE2_IO0
 Text GLabel 15000 7250 0    50   Input ~ 0
 GROVE2_IO1
-Text GLabel 7150 4300 0    50   Input ~ 0
-GROVE1_IO0
 Text GLabel 7150 4400 0    50   Input ~ 0
+GROVE1_IO0
+Text GLabel 7150 4300 0    50   Input ~ 0
 GROVE1_IO1
-Text GLabel 7150 4500 0    50   Input ~ 0
-GROVE2_IO0
 Text GLabel 7150 4600 0    50   Input ~ 0
+GROVE2_IO0
+Text GLabel 7150 4500 0    50   Input ~ 0
 GROVE2_IO1
-Text GLabel 4600 4900 0    50   Input ~ 0
+Text GLabel 7150 6700 0    50   Input ~ 0
 GROVE3_IO1
-Text GLabel 4600 4800 0    50   Input ~ 0
+Text GLabel 7150 6800 0    50   Input ~ 0
 GROVE3_IO0
-Text GLabel 4600 5100 0    50   Input ~ 0
+Text GLabel 7150 6900 0    50   Input ~ 0
 GROVE4_IO1
-Text GLabel 4600 5000 0    50   Input ~ 0
+Text GLabel 7150 7000 0    50   Input ~ 0
 GROVE4_IO0
 Text GLabel 7150 6200 0    50   Input ~ 0
 SDRAM_D0
@@ -2763,7 +2763,7 @@ Text GLabel 7150 6400 0    50   Input ~ 0
 SDRAM_D2
 Text GLabel 7150 6500 0    50   Input ~ 0
 SDRAM_D3
-Text GLabel 7150 5000 0    50   Input ~ 0
+Text GLabel 7150 6100 0    50   Input ~ 0
 SDRAM_D4
 Text GLabel 7150 4900 0    50   Input ~ 0
 SDRAM_D5
@@ -2771,35 +2771,35 @@ Text GLabel 7150 4800 0    50   Input ~ 0
 SDRAM_D6
 Text GLabel 7150 4700 0    50   Input ~ 0
 SDRAM_D7
-Text GLabel 4600 4600 0    50   Input ~ 0
+Text GLabel 4600 5000 0    50   Input ~ 0
 SDRAM_A0
-Text GLabel 4600 4500 0    50   Input ~ 0
+Text GLabel 4600 4900 0    50   Input ~ 0
 SDRAM_A1
-Text GLabel 4600 4400 0    50   Input ~ 0
+Text GLabel 4600 4800 0    50   Input ~ 0
 SDRAM_A2
-Text GLabel 4600 4300 0    50   Input ~ 0
+Text GLabel 7150 6600 0    50   Input ~ 0
 SDRAM_A3
-Text GLabel 7150 5500 0    50   Input ~ 0
+Text GLabel 7150 5000 0    50   Input ~ 0
 SDRAM_A4
-Text GLabel 7150 5600 0    50   Input ~ 0
+Text GLabel 7150 5200 0    50   Input ~ 0
 SDRAM_A5
 Text GLabel 7150 5700 0    50   Input ~ 0
 SDRAM_A6
 Text GLabel 7150 5800 0    50   Input ~ 0
 SDRAM_A7
-Text GLabel 7150 5900 0    50   Input ~ 0
-SDRAM_A8
-Text GLabel 7150 6000 0    50   Input ~ 0
-SDRAM_A9
-Text GLabel 4600 4700 0    50   Input ~ 0
-SDRAM_A10
-Text GLabel 7150 6100 0    50   Input ~ 0
-SDRAM_A11
-Text GLabel 7150 7000 0    50   Input ~ 0
-SDRAM_BA0
-Text GLabel 7150 7100 0    50   Input ~ 0
-SDRAM_BA1
 Text GLabel 7150 5100 0    50   Input ~ 0
+SDRAM_A8
+Text GLabel 7150 5300 0    50   Input ~ 0
+SDRAM_A9
+Text GLabel 4600 5100 0    50   Input ~ 0
+SDRAM_A10
+Text GLabel 7150 5400 0    50   Input ~ 0
+SDRAM_A11
+Text GLabel 4600 5300 0    50   Input ~ 0
+SDRAM_BA0
+Text GLabel 4600 5200 0    50   Input ~ 0
+SDRAM_BA1
+Text GLabel 7150 5500 0    50   Input ~ 0
 SDRAM_A12
 Text GLabel 7050 3050 0    50   Input ~ 0
 BB_IRQ_FPGA_TO_ARM
@@ -2970,19 +2970,19 @@ F 3 "" H 15950 4750 60  0000 C CNN
 	1    15950 4750
 	0    1    1    0   
 $EndComp
-Text GLabel 4600 5300 0    50   Input ~ 0
+Text GLabel 4600 4300 0    50   Input ~ 0
 PMOD3_B1
-Text GLabel 4600 5500 0    50   Input ~ 0
+Text GLabel 4600 4500 0    50   Input ~ 0
 PMOD3_B2
-Text GLabel 4600 5700 0    50   Input ~ 0
+Text GLabel 4600 4700 0    50   Input ~ 0
 PMOD3_B3
 Text GLabel 4600 5900 0    50   Input ~ 0
 PMOD3_B4
-Text GLabel 4600 5200 0    50   Input ~ 0
+Text GLabel 7150 7100 0    50   Input ~ 0
 PMOD3_A1
-Text GLabel 4600 5400 0    50   Input ~ 0
+Text GLabel 4600 4400 0    50   Input ~ 0
 PMOD3_A2
-Text GLabel 4600 5600 0    50   Input ~ 0
+Text GLabel 4600 4600 0    50   Input ~ 0
 PMOD3_A3
 Text GLabel 4600 5800 0    50   Input ~ 0
 PMOD3_A4
@@ -2992,15 +2992,15 @@ Text GLabel 9100 1500 0    50   Input ~ 0
 PMOD4_A2
 Text GLabel 9100 1700 0    50   Input ~ 0
 PMOD4_A3
-Text GLabel 9100 1900 0    50   Input ~ 0
+Text GLabel 9100 1800 0    50   Input ~ 0
 PMOD4_A4
 Text GLabel 9100 1400 0    50   Input ~ 0
 PMOD4_B1
 Text GLabel 9100 1600 0    50   Input ~ 0
 PMOD4_B2
-Text GLabel 9100 1800 0    50   Input ~ 0
-PMOD4_B3
 Text GLabel 9100 2000 0    50   Input ~ 0
+PMOD4_B3
+Text GLabel 9100 1900 0    50   Input ~ 0
 PMOD4_B4
 Wire Wire Line
 	2700 3250 2850 3250
@@ -4111,19 +4111,19 @@ Wire Wire Line
 	7200 1750 7050 1750
 Wire Wire Line
 	2750 7950 2750 9200
-Text GLabel 7150 5300 0    50   Input ~ 0
+Text GLabel 7150 5900 0    50   Input ~ 0
 SDRAM_CLK
-Text GLabel 7150 5200 0    50   Input ~ 0
+Text GLabel 7150 5600 0    50   Input ~ 0
 SDRAM_CKE
-Text GLabel 7150 6800 0    50   Input ~ 0
+Text GLabel 4600 5500 0    50   Input ~ 0
 SDRAM_RAS
-Text GLabel 7150 6700 0    50   Input ~ 0
+Text GLabel 4600 5600 0    50   Input ~ 0
 SDRAM_CAS
-Text GLabel 7150 6600 0    50   Input ~ 0
+Text GLabel 4600 5700 0    50   Input ~ 0
 SDRAM_WE
-Text GLabel 7150 6900 0    50   Input ~ 0
+Text GLabel 4600 5400 0    50   Input ~ 0
 SDRAM_CS
-Text GLabel 7150 5400 0    50   Input ~ 0
+Text GLabel 7150 6000 0    50   Input ~ 0
 SDRAM_DQM
 Wire Wire Line
 	4600 6900 4700 6900
