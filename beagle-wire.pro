@@ -1,4 +1,4 @@
-update=22/05/2015 07:44:53
+update=Sun 16 Apr 2017 08:38:43 PM CDT
 version=1
 last_client=kicad
 [general]
@@ -60,3 +60,13 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=plots
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
