@@ -4,8 +4,4 @@ $CMP +1V2
 K POWER, PWR
 $ENDCMP
 #
-$CMP VDD_ADC
-K POWER, PWR
-$ENDCMP
-#
 #End Doc Library
