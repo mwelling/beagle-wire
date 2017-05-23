@@ -2860,10 +2860,6 @@ Wire Wire Line
 Wire Wire Line
 	5400 1250 5500 1250
 Wire Wire Line
-	8800 4650 10250 4650
-Wire Wire Line
-	8800 4750 10250 4750
-Wire Wire Line
 	8800 4850 10250 4850
 Wire Wire Line
 	8800 4950 10250 4950
@@ -2914,17 +2910,11 @@ Wire Wire Line
 Wire Wire Line
 	9550 6350 10000 6350
 Wire Wire Line
-	9550 4750 9550 6350
-Connection ~ 9550 4750
-Wire Wire Line
-	9650 4650 9650 5550
-Wire Wire Line
 	9650 5550 11300 5550
 Wire Wire Line
 	11300 5550 11300 6350
 Wire Wire Line
 	11300 6350 11200 6350
-Connection ~ 9650 4650
 Wire Wire Line
 	9200 6450 10000 6450
 Wire Wire Line
@@ -4197,9 +4187,19 @@ F 3 "" H 7050 8200 60  0001 C CNN
 	1    7050 8200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8800 4650 10250 4650
+Wire Wire Line
+	10250 4750 8800 4750
+Wire Wire Line
+	9550 6350 9550 4650
+Connection ~ 9550 4650
+Wire Wire Line
+	9650 4750 9650 5550
+Connection ~ 9650 4750
 $Comp
 L SW_DIP_x02 SW4
-U 1 1 592087E1
+U 1 1 59248152
 P 12700 4750
 F 0 "SW4" H 12700 5000 50  0000 C CNN
 F 1 "SW_DIP_x02" H 12700 4600 50  0000 C CNN
