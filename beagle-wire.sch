@@ -2311,7 +2311,7 @@ U 1 1 58E2D41B
 P 15700 5750
 F 0 "GR1" H 15650 5800 60  0000 C CNN
 F 1 "Grove" V 15850 5500 60  0000 C CNN
-F 2 "Sensors:Grove_SMD_Connector" H 15700 5750 60  0001 C CNN
+F 2 "BeagleWire_elements_package:GroveP4" H 15700 5750 60  0001 C CNN
 F 3 "" H 15700 5750 60  0001 C CNN
 	1    15700 5750
 	1    0    0    -1  
@@ -2322,7 +2322,7 @@ U 1 1 58E2D552
 P 15700 7050
 F 0 "GR2" H 15650 7100 60  0000 C CNN
 F 1 "Grove" V 15850 6800 60  0000 C CNN
-F 2 "Sensors:Grove_SMD_Connector" H 15700 7050 60  0001 C CNN
+F 2 "BeagleWire_elements_package:GroveP4" H 15700 7050 60  0001 C CNN
 F 3 "" H 15700 7050 60  0001 C CNN
 	1    15700 7050
 	1    0    0    -1  
@@ -2333,7 +2333,7 @@ U 1 1 58E2D64F
 P 13450 5600
 F 0 "GR3" H 13400 5650 60  0000 C CNN
 F 1 "Grove" V 13600 5350 60  0000 C CNN
-F 2 "Sensors:Grove_SMD_Connector" H 13450 5600 60  0001 C CNN
+F 2 "BeagleWire_elements_package:GroveP4" H 13450 5600 60  0001 C CNN
 F 3 "" H 13450 5600 60  0001 C CNN
 	1    13450 5600
 	1    0    0    -1  
@@ -2344,7 +2344,7 @@ U 1 1 58E2D7D4
 P 13450 6350
 F 0 "GR4" H 13400 6400 60  0000 C CNN
 F 1 "Grove" V 13600 6100 60  0000 C CNN
-F 2 "Sensors:Grove_SMD_Connector" H 13450 6350 60  0001 C CNN
+F 2 "BeagleWire_elements_package:GroveP4" H 13450 6350 60  0001 C CNN
 F 3 "" H 13450 6350 60  0001 C CNN
 	1    13450 6350
 	1    0    0    -1  
@@ -2541,21 +2541,21 @@ Text GLabel 15000 7150 0    50   Input ~ 0
 GROVE2_IO0
 Text GLabel 15000 7250 0    50   Input ~ 0
 GROVE2_IO1
-Text GLabel 7150 4400 0    50   Input ~ 0
-GROVE1_IO0
 Text GLabel 7150 4300 0    50   Input ~ 0
+GROVE1_IO0
+Text GLabel 7150 4400 0    50   Input ~ 0
 GROVE1_IO1
-Text GLabel 7150 4600 0    50   Input ~ 0
-GROVE2_IO0
 Text GLabel 7150 4500 0    50   Input ~ 0
+GROVE2_IO0
+Text GLabel 7150 4600 0    50   Input ~ 0
 GROVE2_IO1
-Text GLabel 7150 6700 0    50   Input ~ 0
-GROVE3_IO1
 Text GLabel 7150 6800 0    50   Input ~ 0
+GROVE3_IO1
+Text GLabel 7150 6700 0    50   Input ~ 0
 GROVE3_IO0
-Text GLabel 7150 6900 0    50   Input ~ 0
-GROVE4_IO1
 Text GLabel 7150 7000 0    50   Input ~ 0
+GROVE4_IO1
+Text GLabel 7150 6900 0    50   Input ~ 0
 GROVE4_IO0
 Text GLabel 7150 6200 0    50   Input ~ 0
 SDRAM_D0
@@ -4234,10 +4234,10 @@ $EndComp
 Wire Wire Line
 	8350 7850 8350 7950
 $Comp
-L GND #PWR?
+L GND #PWR0126
 U 1 1 593A02D8
 P 13200 4900
-F 0 "#PWR?" H 13200 4650 50  0001 C CNN
+F 0 "#PWR0126" H 13200 4650 50  0001 C CNN
 F 1 "GND" H 13200 4750 50  0000 C CNN
 F 2 "" H 13200 4900 50  0001 C CNN
 F 3 "" H 13200 4900 50  0001 C CNN
