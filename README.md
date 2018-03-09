@@ -12,7 +12,7 @@ with  small batteries. FPGA cape allows easy and low cost start for beginners wh
 first steps in working with FPGAs. The BeagleWire creates a powerful and versatile digital cape for
 users to create their imaginative digital designs.
 
-![alt tag](https://raw.githubusercontent.com/mwelling/beagle-wire/master/beagle-wire.png)
+![alt tag](beagle-wire.png)
 
 ## Hardware Specification
 - FPGA: Lattice iCE40HX4K
