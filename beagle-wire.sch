@@ -30,7 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:beagle-wire-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
@@ -96,7 +96,7 @@ U 1 1 55DF7DBA
 P 2450 2250
 F 0 "P9" H 2450 3450 50  0000 C CNN
 F 1 "BeagleBone_Black_Header" V 2450 2250 50  0000 C CNN
-F 2 "Socket_BeagleBone_Black:Socket_BeagleBone_Black" H 2450 1400 60  0001 C CNN
+F 2 "BeagleWire_elements_package:BEAGLEBONE-SOCKET-SMT" H 2450 1400 60  0001 C CNN
 F 3 "" H 2450 1400 60  0000 C CNN
 	1    2450 2250
 	1    0    0    -1  
@@ -107,7 +107,7 @@ U 1 1 55DF7DE1
 P 5150 2250
 F 0 "P8" H 5150 3450 50  0000 C CNN
 F 1 "BeagleBone_Black_Header" V 5150 2250 50  0000 C CNN
-F 2 "Socket_BeagleBone_Black:Socket_BeagleBone_Black" H 5150 1400 60  0001 C CNN
+F 2 "BeagleWire_elements_package:BEAGLEBONE-SOCKET-SMT" H 5150 1400 60  0001 C CNN
 F 3 "" H 5150 1400 60  0000 C CNN
 	1    5150 2250
 	1    0    0    -1  
