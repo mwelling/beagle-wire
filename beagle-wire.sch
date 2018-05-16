@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:mechanical
 LIBS:beagle-wire-cache
 EELAYER 26 0
 EELAYER END
@@ -4257,4 +4258,26 @@ Connection ~ 12250 4650
 Wire Wire Line
 	12350 4350 12350 4750
 Connection ~ 12350 4750
+$Comp
+L Mounting_Hole MK1
+U 1 1 5AFC6E73
+P 15275 8850
+F 0 "MK1" H 15375 8896 50  0000 L CNN
+F 1 "FIDUCIAL" H 15375 8805 50  0000 L CNN
+F 2 "BeagleWire_elements_package:Fiducial_1mm_Dia_2.00mm_Outer_CopperTop" H 15275 8850 50  0001 C CNN
+F 3 "" H 15275 8850 50  0001 C CNN
+	1    15275 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mounting_Hole MK2
+U 1 1 5AFC72D9
+P 15275 9025
+F 0 "MK2" H 15375 9071 50  0000 L CNN
+F 1 "FIDUCIAL" H 15375 8980 50  0000 L CNN
+F 2 "BeagleWire_elements_package:Fiducial_1mm_Dia_2.00mm_Outer_CopperTop" H 15275 9025 50  0001 C CNN
+F 3 "" H 15275 9025 50  0001 C CNN
+	1    15275 9025
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-update=sob, 20 maj 2017, 15:33:53
+update=Wed 16 May 2018 11:29:14 AM CDT
 version=1
 last_client=kicad
 [general]
@@ -71,3 +71,4 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
+LibName31=mechanical
