@@ -1,35 +1,4 @@
-EESchema Schematic File Version 2
-LIBS:beagle-wire-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:mechanical
+EESchema Schematic File Version 4
 LIBS:beagle-wire-cache
 EELAYER 26 0
 EELAYER END
@@ -46,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L +5V #PWR01
+L beagle-wire:+5V #PWR01
 U 1 1 55897A7F
 P 3050 950
 F 0 "#PWR01" H 3050 800 50  0001 C CNN
@@ -57,7 +26,7 @@ F 3 "" H 3050 950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR02
+L beagle-wire:+5V #PWR02
 U 1 1 55897EF8
 P 1850 950
 F 0 "#PWR02" H 1850 800 50  0001 C CNN
@@ -68,7 +37,7 @@ F 3 "" H 1850 950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SYS_5V #PWR03
+L beagle-wire:SYS_5V #PWR03
 U 1 1 55898497
 P 3300 950
 F 0 "#PWR03" H 3300 800 50  0001 C CNN
@@ -79,7 +48,7 @@ F 3 "" H 3300 950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SYS_5V #PWR04
+L beagle-wire:SYS_5V #PWR04
 U 1 1 558984AF
 P 1600 950
 F 0 "#PWR04" H 1600 800 50  0001 C CNN
@@ -92,7 +61,7 @@ $EndComp
 Text GLabel 2800 1550 2    50   Input ~ 0
 SYS_RESETN
 $Comp
-L BeagleBone_Black_Header P9
+L beagle-wire:BeagleBone_Black_Header P9
 U 1 1 55DF7DBA
 P 2450 2250
 F 0 "P9" H 2450 3450 50  0000 C CNN
@@ -103,7 +72,7 @@ F 3 "" H 2450 1400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BeagleBone_Black_Header P8
+L beagle-wire:BeagleBone_Black_Header P8
 U 1 1 55DF7DE1
 P 5150 2250
 F 0 "P8" H 5150 3450 50  0000 C CNN
@@ -114,7 +83,7 @@ F 3 "" H 5150 1400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L iCE40-HX4K-TQ144 U1
+L beagle-wire:iCE40-HX4K-TQ144 U1
 U 1 1 58DB11A0
 P 2650 6450
 F 0 "U1" H 2850 6700 60  0000 L CNN
@@ -125,7 +94,7 @@ F 3 "" H 2650 6450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L iCE40-HX4K-TQ144 U1
+L beagle-wire:iCE40-HX4K-TQ144 U1
 U 2 1 58DB12A3
 P 4700 4300
 F 0 "U1" H 4900 4550 60  0000 L CNN
@@ -136,7 +105,7 @@ F 3 "" H 4700 4300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L iCE40-HX4K-TQ144 U1
+L beagle-wire:iCE40-HX4K-TQ144 U1
 U 3 1 58DB130C
 P 7200 4300
 F 0 "U1" H 7400 4550 60  0000 L CNN
@@ -147,7 +116,7 @@ F 3 "" H 7200 4300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L iCE40-HX4K-TQ144 U1
+L beagle-wire:iCE40-HX4K-TQ144 U1
 U 4 1 58DB1375
 P 7200 1150
 F 0 "U1" H 7400 1400 60  0000 L CNN
@@ -158,7 +127,7 @@ F 3 "" H 7200 1150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L iCE40-HX4K-TQ144 U1
+L beagle-wire:iCE40-HX4K-TQ144 U1
 U 5 1 58DB13FA
 P 9200 1000
 F 0 "U1" H 9400 1250 60  0000 L CNN
@@ -169,7 +138,7 @@ F 3 "" H 9200 1000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L iCE40-HX4K-TQ144 U1
+L beagle-wire:iCE40-HX4K-TQ144 U1
 U 6 1 58DB14AB
 P 10250 4650
 F 0 "U1" H 10450 4900 60  0000 L CNN
@@ -286,7 +255,7 @@ GPMC_AD5
 Text GLabel 4600 6200 0    50   Input ~ 0
 GPMC_AD1
 $Comp
-L M25PX32-VMW U5
+L beagle-wire:M25PX32-VMW U5
 U 1 1 58DB41E0
 P 10600 6550
 F 0 "U5" H 10200 6950 50  0000 C CNN
@@ -297,7 +266,7 @@ F 3 "" H 10750 6450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C40
+L beagle-wire:C_Small C40
 U 1 1 58DB5087
 P 10800 5850
 F 0 "C40" V 10900 5800 50  0000 L CNN
@@ -316,7 +285,7 @@ ICE40_CDONE
 Text GLabel 3050 4950 2    50   Input ~ 0
 ICE40_CRESET
 $Comp
-L +3V3 #PWR05
+L beagle-wire:+3V3 #PWR05
 U 1 1 58DB5B19
 P 10600 5750
 F 0 "#PWR05" H 10600 5600 50  0001 C CNN
@@ -327,7 +296,7 @@ F 3 "" H 10600 5750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR06
+L beagle-wire:+3V3 #PWR06
 U 1 1 58DB5D75
 P 9950 5050
 F 0 "#PWR06" H 9950 4900 50  0001 C CNN
@@ -338,7 +307,7 @@ F 3 "" H 9950 5050 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C_Small C36
+L beagle-wire:C_Small C36
 U 1 1 58DB6157
 P 10100 5200
 F 0 "C36" V 10200 5150 50  0000 L CNN
@@ -349,7 +318,7 @@ F 3 "" H 10100 5200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +3V3 #PWR07
+L beagle-wire:+3V3 #PWR07
 U 1 1 58DB6434
 P 8750 5750
 F 0 "#PWR07" H 8750 5600 50  0001 C CNN
@@ -360,7 +329,7 @@ F 3 "" H 8750 5750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R11
+L beagle-wire:R R11
 U 1 1 58DB6457
 P 8750 6000
 F 0 "R11" V 8830 6000 50  0000 C CNN
@@ -371,7 +340,7 @@ F 3 "" H 8750 6000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R12
+L beagle-wire:R R12
 U 1 1 58DB64D6
 P 8900 6000
 F 0 "R12" V 8980 6000 50  0000 C CNN
@@ -382,7 +351,7 @@ F 3 "" H 8900 6000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C5
+L beagle-wire:C C5
 U 1 1 58DFB37B
 P 3300 8550
 F 0 "C5" H 3325 8650 50  0000 L CNN
@@ -393,7 +362,7 @@ F 3 "" H 3300 8550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C10
+L beagle-wire:C C10
 U 1 1 58DFB3EA
 P 4450 8550
 F 0 "C10" H 4475 8650 50  0000 L CNN
@@ -404,7 +373,7 @@ F 3 "" H 4450 8550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C18
+L beagle-wire:C C18
 U 1 1 58DFB5F7
 P 6050 8550
 F 0 "C18" H 6075 8650 50  0000 L CNN
@@ -415,7 +384,7 @@ F 3 "" H 6050 8550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C12
+L beagle-wire:C C12
 U 1 1 58DFB650
 P 4900 8550
 F 0 "C12" H 4925 8650 50  0000 L CNN
@@ -426,7 +395,7 @@ F 3 "" H 4900 8550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L beagle-wire:GND #PWR08
 U 1 1 58DFB9E7
 P 4450 8800
 F 0 "#PWR08" H 4450 8550 50  0001 C CNN
@@ -437,7 +406,7 @@ F 3 "" H 4450 8800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L beagle-wire:GND #PWR09
 U 1 1 58DFBA21
 P 3550 8800
 F 0 "#PWR09" H 3550 8550 50  0001 C CNN
@@ -448,7 +417,7 @@ F 3 "" H 3550 8800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR010
+L beagle-wire:GND #PWR010
 U 1 1 58DFBBC0
 P 6050 8800
 F 0 "#PWR010" H 6050 8550 50  0001 C CNN
@@ -459,7 +428,7 @@ F 3 "" H 6050 8800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR011
+L beagle-wire:+3V3 #PWR011
 U 1 1 58E0008B
 P 4450 8000
 F 0 "#PWR011" H 4450 7850 50  0001 C CNN
@@ -470,7 +439,7 @@ F 3 "" H 4450 8000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SYS_5V #PWR012
+L beagle-wire:SYS_5V #PWR012
 U 1 1 58E00724
 P 3300 8000
 F 0 "#PWR012" H 3300 7850 50  0001 C CNN
@@ -481,7 +450,7 @@ F 3 "" H 3300 8000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR013
+L beagle-wire:GND #PWR013
 U 1 1 58E05CC3
 P 3300 8800
 F 0 "#PWR013" H 3300 8550 50  0001 C CNN
@@ -492,7 +461,7 @@ F 3 "" H 3300 8800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR014
+L beagle-wire:+3V3 #PWR014
 U 1 1 58E05FC9
 P 4900 8000
 F 0 "#PWR014" H 4900 7850 50  0001 C CNN
@@ -503,7 +472,7 @@ F 3 "" H 4900 8000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
+L beagle-wire:GND #PWR015
 U 1 1 58E08656
 P 5150 8800
 F 0 "#PWR015" H 5150 8550 50  0001 C CNN
@@ -514,7 +483,7 @@ F 3 "" H 5150 8800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +1V2 #PWR016
+L beagle-wire:+1V2 #PWR016
 U 1 1 58E0888D
 P 6050 8000
 F 0 "#PWR016" H 6050 7850 50  0001 C CNN
@@ -525,7 +494,7 @@ F 3 "" H 6050 8000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MCP1826S-RESCUE-beagle-wire U2
+L beagle-wire:MCP1826S-RESCUE-beagle-wire U2
 U 1 1 58DFBA83
 P 3900 8400
 F 0 "U2" H 3750 8750 60  0000 C CNN
@@ -536,7 +505,7 @@ F 3 "" H 3900 8800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MCP1826S-RESCUE-beagle-wire U3
+L beagle-wire:MCP1826S-RESCUE-beagle-wire U3
 U 1 1 58DFBADE
 P 5500 8400
 F 0 "U3" H 5350 8750 60  0000 C CNN
@@ -547,7 +516,7 @@ F 3 "" H 5500 8800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR017
+L beagle-wire:GND #PWR017
 U 1 1 58DFC0D2
 P 4900 8800
 F 0 "#PWR017" H 4900 8550 50  0001 C CNN
@@ -558,7 +527,7 @@ F 3 "" H 4900 8800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_Small D3
+L beagle-wire:LED_Small D3
 U 1 1 58DFD639
 P 2100 8300
 F 0 "D3" H 2050 8425 50  0000 L CNN
@@ -569,7 +538,7 @@ F 3 "" V 2100 8300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED_Small D2
+L beagle-wire:LED_Small D2
 U 1 1 58DFD6D2
 P 2100 8600
 F 0 "D2" H 2050 8725 50  0000 L CNN
@@ -580,7 +549,7 @@ F 3 "" V 2100 8600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED_Small D4
+L beagle-wire:LED_Small D4
 U 1 1 58DFD797
 P 2100 7950
 F 0 "D4" H 2050 8075 50  0000 L CNN
@@ -591,7 +560,7 @@ F 3 "" V 2100 7950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED_Small D1
+L beagle-wire:LED_Small D1
 U 1 1 58DFDA23
 P 2100 8900
 F 0 "D1" H 2050 9025 50  0000 L CNN
@@ -602,7 +571,7 @@ F 3 "" V 2100 8900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R4
+L beagle-wire:R R4
 U 1 1 58DFE30D
 P 2500 7950
 F 0 "R4" V 2580 7950 50  0000 C CNN
@@ -613,7 +582,7 @@ F 3 "" H 2500 7950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R5
+L beagle-wire:R R5
 U 1 1 58DFE370
 P 2500 8300
 F 0 "R5" V 2580 8300 50  0000 C CNN
@@ -624,7 +593,7 @@ F 3 "" H 2500 8300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R6
+L beagle-wire:R R6
 U 1 1 58DFE3CF
 P 2500 8600
 F 0 "R6" V 2580 8600 50  0000 C CNN
@@ -635,7 +604,7 @@ F 3 "" H 2500 8600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R7
+L beagle-wire:R R7
 U 1 1 58DFE432
 P 2500 8900
 F 0 "R7" V 2580 8900 50  0000 C CNN
@@ -646,7 +615,7 @@ F 3 "" H 2500 8900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR018
+L beagle-wire:GND #PWR018
 U 1 1 58DFE4A7
 P 2750 9200
 F 0 "#PWR018" H 2750 8950 50  0001 C CNN
@@ -665,7 +634,7 @@ USER_LED2
 Text GLabel 1950 7950 0    50   Input ~ 0
 USER_LED3
 $Comp
-L C C21
+L beagle-wire:C C21
 U 1 1 58DFCF7D
 P 6500 8550
 F 0 "C21" H 6525 8650 50  0000 L CNN
@@ -676,7 +645,7 @@ F 3 "" H 6500 8550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR019
+L beagle-wire:GND #PWR019
 U 1 1 58DFD517
 P 6500 8850
 F 0 "#PWR019" H 6500 8600 50  0001 C CNN
@@ -687,7 +656,7 @@ F 3 "" H 6500 8850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR020
+L beagle-wire:+3V3 #PWR020
 U 1 1 58DFD575
 P 6500 8000
 F 0 "#PWR020" H 6500 7850 50  0001 C CNN
@@ -698,7 +667,7 @@ F 3 "" H 6500 8000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R10
+L beagle-wire:R R10
 U 1 1 58DFE83D
 P 7750 8750
 F 0 "R10" V 7830 8750 50  0000 C CNN
@@ -721,7 +690,7 @@ USER_LED2
 Text GLabel 9100 3500 0    50   Input ~ 0
 USER_LED3
 $Comp
-L D D5
+L beagle-wire:D D5
 U 1 1 58E03644
 P 1550 7150
 F 0 "D5" H 1550 7250 50  0000 C CNN
@@ -733,7 +702,7 @@ F 3 "" H 1550 7150 50  0001 C CNN
 $EndComp
 NoConn ~ 2650 7250
 $Comp
-L +3V3 #PWR021
+L beagle-wire:+3V3 #PWR021
 U 1 1 58E04088
 P 1250 7050
 F 0 "#PWR021" H 1250 6900 50  0001 C CNN
@@ -744,7 +713,7 @@ F 3 "" H 1250 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +1V2 #PWR022
+L beagle-wire:+1V2 #PWR022
 U 1 1 58E04C09
 P 1450 6400
 F 0 "#PWR022" H 1450 6250 50  0001 C CNN
@@ -755,7 +724,7 @@ F 3 "" H 1450 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR023
+L beagle-wire:GND #PWR023
 U 1 1 58E05199
 P 2400 6650
 F 0 "#PWR023" H 2400 6400 50  0001 C CNN
@@ -766,7 +735,7 @@ F 3 "" H 2400 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
+L beagle-wire:C C1
 U 1 1 58E057C5
 P 1700 5950
 F 0 "C1" H 1725 6050 50  0000 L CNN
@@ -777,7 +746,7 @@ F 3 "" H 1700 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L beagle-wire:C C3
 U 1 1 58E05B2C
 P 1950 5950
 F 0 "C3" H 1975 6050 50  0000 L CNN
@@ -788,7 +757,7 @@ F 3 "" H 1950 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C4
+L beagle-wire:C C4
 U 1 1 58E05E6C
 P 1950 6650
 F 0 "C4" H 1975 6750 50  0000 L CNN
@@ -799,7 +768,7 @@ F 3 "" H 1950 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L beagle-wire:C C2
 U 1 1 58E05EDB
 P 1700 6650
 F 0 "C2" H 1725 6750 50  0000 L CNN
@@ -810,7 +779,7 @@ F 3 "" H 1700 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L beagle-wire:R R2
 U 1 1 58E06E05
 P 1450 6650
 F 0 "R2" V 1530 6650 50  0000 C CNN
@@ -821,7 +790,7 @@ F 3 "" H 1450 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1
+L beagle-wire:R R1
 U 1 1 58E070D8
 P 1450 5950
 F 0 "R1" V 1530 5950 50  0000 C CNN
@@ -832,7 +801,7 @@ F 3 "" H 1450 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +1V2 #PWR024
+L beagle-wire:+1V2 #PWR024
 U 1 1 58E08E49
 P 1450 5700
 F 0 "#PWR024" H 1450 5550 50  0001 C CNN
@@ -843,7 +812,7 @@ F 3 "" H 1450 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +1V2 #PWR025
+L beagle-wire:+1V2 #PWR025
 U 1 1 58E0B659
 P 2100 7050
 F 0 "#PWR025" H 2100 6900 50  0001 C CNN
@@ -854,7 +823,7 @@ F 3 "" H 2100 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR026
+L beagle-wire:+3V3 #PWR026
 U 1 1 58E0D808
 P 6100 3100
 F 0 "#PWR026" H 6100 2950 50  0001 C CNN
@@ -865,7 +834,7 @@ F 3 "" H 6100 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR027
+L beagle-wire:+3V3 #PWR027
 U 1 1 58E0E613
 P 6450 7100
 F 0 "#PWR027" H 6450 6950 50  0001 C CNN
@@ -876,7 +845,7 @@ F 3 "" H 6450 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR028
+L beagle-wire:+3V3 #PWR028
 U 1 1 58E0EA97
 P 4000 6950
 F 0 "#PWR028" H 4000 6800 50  0001 C CNN
@@ -887,7 +856,7 @@ F 3 "" H 4000 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR029
+L beagle-wire:+3V3 #PWR029
 U 1 1 58E0EEBD
 P 8200 3750
 F 0 "#PWR029" H 8200 3600 50  0001 C CNN
@@ -898,7 +867,7 @@ F 3 "" H 8200 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C6
+L beagle-wire:C C6
 U 1 1 58E0FD99
 P 3600 9750
 F 0 "C6" H 3625 9850 50  0000 L CNN
@@ -909,7 +878,7 @@ F 3 "" H 3600 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C7
+L beagle-wire:C C7
 U 1 1 58E0FE34
 P 3850 9750
 F 0 "C7" H 3875 9850 50  0000 L CNN
@@ -920,7 +889,7 @@ F 3 "" H 3850 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C8
+L beagle-wire:C C8
 U 1 1 58E0FEBB
 P 4100 9750
 F 0 "C8" H 4125 9850 50  0000 L CNN
@@ -931,7 +900,7 @@ F 3 "" H 4100 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C9
+L beagle-wire:C C9
 U 1 1 58E0FF30
 P 4350 9750
 F 0 "C9" H 4375 9850 50  0000 L CNN
@@ -942,7 +911,7 @@ F 3 "" H 4350 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR030
+L beagle-wire:GND #PWR030
 U 1 1 58E10BA7
 P 3600 10000
 F 0 "#PWR030" H 3600 9750 50  0001 C CNN
@@ -953,7 +922,7 @@ F 3 "" H 3600 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR031
+L beagle-wire:GND #PWR031
 U 1 1 58E10C2D
 P 3850 10000
 F 0 "#PWR031" H 3850 9750 50  0001 C CNN
@@ -964,7 +933,7 @@ F 3 "" H 3850 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR032
+L beagle-wire:GND #PWR032
 U 1 1 58E10CB3
 P 4100 10000
 F 0 "#PWR032" H 4100 9750 50  0001 C CNN
@@ -975,7 +944,7 @@ F 3 "" H 4100 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR033
+L beagle-wire:GND #PWR033
 U 1 1 58E10D39
 P 4350 10000
 F 0 "#PWR033" H 4350 9750 50  0001 C CNN
@@ -986,7 +955,7 @@ F 3 "" H 4350 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR034
+L beagle-wire:+3V3 #PWR034
 U 1 1 58E11FB1
 P 3600 9450
 F 0 "#PWR034" H 3600 9300 50  0001 C CNN
@@ -997,7 +966,7 @@ F 3 "" H 3600 9450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +1V2 #PWR035
+L beagle-wire:+1V2 #PWR035
 U 1 1 58E153B0
 P 7850 9450
 F 0 "#PWR035" H 7850 9300 50  0001 C CNN
@@ -1008,7 +977,7 @@ F 3 "" H 7850 9450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C11
+L beagle-wire:C C11
 U 1 1 58E18B5E
 P 4650 9750
 F 0 "C11" H 4675 9850 50  0000 L CNN
@@ -1019,7 +988,7 @@ F 3 "" H 4650 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C13
+L beagle-wire:C C13
 U 1 1 58E18B64
 P 4900 9750
 F 0 "C13" H 4925 9850 50  0000 L CNN
@@ -1030,7 +999,7 @@ F 3 "" H 4900 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C14
+L beagle-wire:C C14
 U 1 1 58E18B6A
 P 5150 9750
 F 0 "C14" H 5175 9850 50  0000 L CNN
@@ -1041,7 +1010,7 @@ F 3 "" H 5150 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C15
+L beagle-wire:C C15
 U 1 1 58E18B70
 P 5400 9750
 F 0 "C15" H 5425 9850 50  0000 L CNN
@@ -1052,7 +1021,7 @@ F 3 "" H 5400 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR036
+L beagle-wire:GND #PWR036
 U 1 1 58E18B76
 P 4650 10000
 F 0 "#PWR036" H 4650 9750 50  0001 C CNN
@@ -1063,7 +1032,7 @@ F 3 "" H 4650 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR037
+L beagle-wire:GND #PWR037
 U 1 1 58E18B7C
 P 4900 10000
 F 0 "#PWR037" H 4900 9750 50  0001 C CNN
@@ -1074,7 +1043,7 @@ F 3 "" H 4900 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR038
+L beagle-wire:GND #PWR038
 U 1 1 58E18B82
 P 5150 10000
 F 0 "#PWR038" H 5150 9750 50  0001 C CNN
@@ -1085,7 +1054,7 @@ F 3 "" H 5150 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR039
+L beagle-wire:GND #PWR039
 U 1 1 58E18B88
 P 5400 10000
 F 0 "#PWR039" H 5400 9750 50  0001 C CNN
@@ -1096,7 +1065,7 @@ F 3 "" H 5400 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR040
+L beagle-wire:+3V3 #PWR040
 U 1 1 58E18B92
 P 4650 9450
 F 0 "#PWR040" H 4650 9300 50  0001 C CNN
@@ -1107,7 +1076,7 @@ F 3 "" H 4650 9450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C16
+L beagle-wire:C C16
 U 1 1 58E18F97
 P 5700 9750
 F 0 "C16" H 5725 9850 50  0000 L CNN
@@ -1118,7 +1087,7 @@ F 3 "" H 5700 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C17
+L beagle-wire:C C17
 U 1 1 58E18F9D
 P 5950 9750
 F 0 "C17" H 5975 9850 50  0000 L CNN
@@ -1129,7 +1098,7 @@ F 3 "" H 5950 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C19
+L beagle-wire:C C19
 U 1 1 58E18FA3
 P 6200 9750
 F 0 "C19" H 6225 9850 50  0000 L CNN
@@ -1140,7 +1109,7 @@ F 3 "" H 6200 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C20
+L beagle-wire:C C20
 U 1 1 58E18FA9
 P 6450 9750
 F 0 "C20" H 6475 9850 50  0000 L CNN
@@ -1151,7 +1120,7 @@ F 3 "" H 6450 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR041
+L beagle-wire:GND #PWR041
 U 1 1 58E18FAF
 P 5700 10000
 F 0 "#PWR041" H 5700 9750 50  0001 C CNN
@@ -1162,7 +1131,7 @@ F 3 "" H 5700 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR042
+L beagle-wire:GND #PWR042
 U 1 1 58E18FB5
 P 5950 10000
 F 0 "#PWR042" H 5950 9750 50  0001 C CNN
@@ -1173,7 +1142,7 @@ F 3 "" H 5950 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR043
+L beagle-wire:GND #PWR043
 U 1 1 58E18FBB
 P 6200 10000
 F 0 "#PWR043" H 6200 9750 50  0001 C CNN
@@ -1184,7 +1153,7 @@ F 3 "" H 6200 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR044
+L beagle-wire:GND #PWR044
 U 1 1 58E18FC1
 P 6450 10000
 F 0 "#PWR044" H 6450 9750 50  0001 C CNN
@@ -1195,7 +1164,7 @@ F 3 "" H 6450 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR045
+L beagle-wire:+3V3 #PWR045
 U 1 1 58E18FCB
 P 5700 9450
 F 0 "#PWR045" H 5700 9300 50  0001 C CNN
@@ -1206,7 +1175,7 @@ F 3 "" H 5700 9450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C22
+L beagle-wire:C C22
 U 1 1 58E19170
 P 6750 9750
 F 0 "C22" H 6775 9850 50  0000 L CNN
@@ -1217,7 +1186,7 @@ F 3 "" H 6750 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C23
+L beagle-wire:C C23
 U 1 1 58E19176
 P 7000 9750
 F 0 "C23" H 7025 9850 50  0000 L CNN
@@ -1228,7 +1197,7 @@ F 3 "" H 7000 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C24
+L beagle-wire:C C24
 U 1 1 58E1917C
 P 7250 9750
 F 0 "C24" H 7275 9850 50  0000 L CNN
@@ -1239,7 +1208,7 @@ F 3 "" H 7250 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C25
+L beagle-wire:C C25
 U 1 1 58E19182
 P 7500 9750
 F 0 "C25" H 7525 9850 50  0000 L CNN
@@ -1250,7 +1219,7 @@ F 3 "" H 7500 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR046
+L beagle-wire:GND #PWR046
 U 1 1 58E19188
 P 6750 10000
 F 0 "#PWR046" H 6750 9750 50  0001 C CNN
@@ -1261,7 +1230,7 @@ F 3 "" H 6750 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR047
+L beagle-wire:GND #PWR047
 U 1 1 58E1918E
 P 7000 10000
 F 0 "#PWR047" H 7000 9750 50  0001 C CNN
@@ -1272,7 +1241,7 @@ F 3 "" H 7000 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR048
+L beagle-wire:GND #PWR048
 U 1 1 58E19194
 P 7250 10000
 F 0 "#PWR048" H 7250 9750 50  0001 C CNN
@@ -1283,7 +1252,7 @@ F 3 "" H 7250 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR049
+L beagle-wire:GND #PWR049
 U 1 1 58E1919A
 P 7500 10000
 F 0 "#PWR049" H 7500 9750 50  0001 C CNN
@@ -1294,7 +1263,7 @@ F 3 "" H 7500 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR050
+L beagle-wire:+3V3 #PWR050
 U 1 1 58E191A4
 P 6750 9450
 F 0 "#PWR050" H 6750 9300 50  0001 C CNN
@@ -1305,7 +1274,7 @@ F 3 "" H 6750 9450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C26
+L beagle-wire:C C26
 U 1 1 58E1963E
 P 7850 9750
 F 0 "C26" H 7875 9850 50  0000 L CNN
@@ -1316,7 +1285,7 @@ F 3 "" H 7850 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C27
+L beagle-wire:C C27
 U 1 1 58E19644
 P 8100 9750
 F 0 "C27" H 8125 9850 50  0000 L CNN
@@ -1327,7 +1296,7 @@ F 3 "" H 8100 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C28
+L beagle-wire:C C28
 U 1 1 58E1964A
 P 8350 9750
 F 0 "C28" H 8375 9850 50  0000 L CNN
@@ -1338,7 +1307,7 @@ F 3 "" H 8350 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C30
+L beagle-wire:C C30
 U 1 1 58E19650
 P 8600 9750
 F 0 "C30" H 8625 9850 50  0000 L CNN
@@ -1349,7 +1318,7 @@ F 3 "" H 8600 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR051
+L beagle-wire:GND #PWR051
 U 1 1 58E19656
 P 7850 10000
 F 0 "#PWR051" H 7850 9750 50  0001 C CNN
@@ -1360,7 +1329,7 @@ F 3 "" H 7850 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR052
+L beagle-wire:GND #PWR052
 U 1 1 58E1965C
 P 8100 10000
 F 0 "#PWR052" H 8100 9750 50  0001 C CNN
@@ -1371,7 +1340,7 @@ F 3 "" H 8100 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR053
+L beagle-wire:GND #PWR053
 U 1 1 58E19662
 P 8350 10000
 F 0 "#PWR053" H 8350 9750 50  0001 C CNN
@@ -1382,7 +1351,7 @@ F 3 "" H 8350 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR054
+L beagle-wire:GND #PWR054
 U 1 1 58E19668
 P 8600 10000
 F 0 "#PWR054" H 8600 9750 50  0001 C CNN
@@ -1393,7 +1362,7 @@ F 3 "" H 8600 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C31
+L beagle-wire:C C31
 U 1 1 58E19676
 P 8850 9750
 F 0 "C31" H 8875 9850 50  0000 L CNN
@@ -1404,7 +1373,7 @@ F 3 "" H 8850 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C32
+L beagle-wire:C C32
 U 1 1 58E1967C
 P 9100 9750
 F 0 "C32" H 9125 9850 50  0000 L CNN
@@ -1415,7 +1384,7 @@ F 3 "" H 9100 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C33
+L beagle-wire:C C33
 U 1 1 58E19682
 P 9350 9750
 F 0 "C33" H 9375 9850 50  0000 L CNN
@@ -1426,7 +1395,7 @@ F 3 "" H 9350 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C34
+L beagle-wire:C C34
 U 1 1 58E19688
 P 9600 9750
 F 0 "C34" H 9625 9850 50  0000 L CNN
@@ -1437,7 +1406,7 @@ F 3 "" H 9600 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR055
+L beagle-wire:GND #PWR055
 U 1 1 58E1968E
 P 8850 10000
 F 0 "#PWR055" H 8850 9750 50  0001 C CNN
@@ -1448,7 +1417,7 @@ F 3 "" H 8850 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR056
+L beagle-wire:GND #PWR056
 U 1 1 58E19694
 P 9100 10000
 F 0 "#PWR056" H 9100 9750 50  0001 C CNN
@@ -1459,7 +1428,7 @@ F 3 "" H 9100 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR057
+L beagle-wire:GND #PWR057
 U 1 1 58E1969A
 P 9350 10000
 F 0 "#PWR057" H 9350 9750 50  0001 C CNN
@@ -1470,7 +1439,7 @@ F 3 "" H 9350 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR058
+L beagle-wire:GND #PWR058
 U 1 1 58E196A0
 P 9600 10000
 F 0 "#PWR058" H 9600 9750 50  0001 C CNN
@@ -1481,7 +1450,7 @@ F 3 "" H 9600 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R13
+L beagle-wire:R R13
 U 1 1 58E19702
 P 9050 6000
 F 0 "R13" V 9130 6000 50  0000 C CNN
@@ -1492,7 +1461,7 @@ F 3 "" H 9050 6000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R14
+L beagle-wire:R R14
 U 1 1 58E1983A
 P 9200 6000
 F 0 "R14" V 9280 6000 50  0000 C CNN
@@ -1511,7 +1480,7 @@ PMOD1_A3
 Text GLabel 14800 1650 0    50   Input ~ 0
 PMOD1_A4
 $Comp
-L CONN_02X06 P1
+L beagle-wire:CONN_02X06 P1
 U 1 1 58E1CAFC
 P 15150 1600
 F 0 "P1" H 15150 1950 50  0000 C CNN
@@ -1522,7 +1491,7 @@ F 3 "" H 15150 400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_02X06 P2
+L beagle-wire:CONN_02X06 P2
 U 1 1 58E1CBFF
 P 15150 2500
 F 0 "P2" H 15150 2850 50  0000 C CNN
@@ -1533,7 +1502,7 @@ F 3 "" H 15150 1300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR059
+L beagle-wire:+3V3 #PWR059
 U 1 1 58E1D5F0
 P 14350 1850
 F 0 "#PWR059" H 14350 1700 50  0001 C CNN
@@ -1552,7 +1521,7 @@ PMOD2_A3
 Text GLabel 14800 2550 0    50   Input ~ 0
 PMOD2_A4
 $Comp
-L +3V3 #PWR060
+L beagle-wire:+3V3 #PWR060
 U 1 1 58E1EC96
 P 14350 2750
 F 0 "#PWR060" H 14350 2600 50  0001 C CNN
@@ -1571,7 +1540,7 @@ PMOD1_B3
 Text GLabel 15500 1650 2    50   Input ~ 0
 PMOD1_B4
 $Comp
-L +3V3 #PWR061
+L beagle-wire:+3V3 #PWR061
 U 1 1 58E2042A
 P 15950 1850
 F 0 "#PWR061" H 15950 1700 50  0001 C CNN
@@ -1590,7 +1559,7 @@ PMOD2_B3
 Text GLabel 15500 2550 2    50   Input ~ 0
 PMOD2_B4
 $Comp
-L +3V3 #PWR062
+L beagle-wire:+3V3 #PWR062
 U 1 1 58E2081D
 P 15950 2750
 F 0 "#PWR062" H 15950 2600 50  0001 C CNN
@@ -1691,7 +1660,7 @@ SDRAM_D7
 Text GLabel 13300 3100 2    50   Input ~ 0
 SDRAM_DQM
 $Comp
-L +3V3 #PWR063
+L beagle-wire:+3V3 #PWR063
 U 1 1 58E34AD0
 P 12100 900
 F 0 "#PWR063" H 12100 750 50  0001 C CNN
@@ -1702,7 +1671,7 @@ F 3 "" H 12100 900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AT24CS32-XHM U4
+L beagle-wire:AT24CS32-XHM U4
 U 1 1 58E056B2
 P 9150 8450
 F 0 "U4" H 8950 8700 50  0000 C CNN
@@ -1713,7 +1682,7 @@ F 3 "" H 9150 8450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR064
+L beagle-wire:GND #PWR064
 U 1 1 58E06366
 P 8600 9000
 F 0 "#PWR064" H 8600 8750 50  0001 C CNN
@@ -1724,7 +1693,7 @@ F 3 "" H 8600 9000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR065
+L beagle-wire:GND #PWR065
 U 1 1 58E064F1
 P 9150 9000
 F 0 "#PWR065" H 9150 8750 50  0001 C CNN
@@ -1735,7 +1704,7 @@ F 3 "" H 9150 9000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR066
+L beagle-wire:+3V3 #PWR066
 U 1 1 58E06BD6
 P 9150 7850
 F 0 "#PWR066" H 9150 7700 50  0001 C CNN
@@ -1746,7 +1715,7 @@ F 3 "" H 9150 7850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C29
+L beagle-wire:C C29
 U 1 1 58E07A06
 P 8600 8100
 F 0 "C29" H 8625 8200 50  0000 L CNN
@@ -1757,7 +1726,7 @@ F 3 "" H 8600 8100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R15
+L beagle-wire:R R15
 U 1 1 58E0BB2F
 P 9650 8150
 F 0 "R15" V 9730 8150 50  0000 C CNN
@@ -1768,7 +1737,7 @@ F 3 "" H 9650 8150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR067
+L beagle-wire:+3V3 #PWR067
 U 1 1 58E0BC04
 P 9650 7900
 F 0 "#PWR067" H 9650 7750 50  0001 C CNN
@@ -1779,7 +1748,7 @@ F 3 "" H 9650 7900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR068
+L beagle-wire:+3V3 #PWR068
 U 1 1 58E0BCB2
 P 9900 7900
 F 0 "#PWR068" H 9900 7750 50  0001 C CNN
@@ -1790,7 +1759,7 @@ F 3 "" H 9900 7900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R16
+L beagle-wire:R R16
 U 1 1 58E0BD60
 P 9900 8150
 F 0 "R16" V 9980 8150 50  0000 C CNN
@@ -1809,7 +1778,7 @@ BB_CFG_SDA
 Text GLabel 2100 2050 0    50   Input ~ 0
 BB_CFG_SCL
 $Comp
-L C C39
+L beagle-wire:C C39
 U 1 1 58E12B63
 P 10650 9750
 F 0 "C39" H 10675 9850 50  0000 L CNN
@@ -1820,7 +1789,7 @@ F 3 "" H 10650 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C35
+L beagle-wire:C C35
 U 1 1 58E12B69
 P 9900 9750
 F 0 "C35" H 9925 9850 50  0000 L CNN
@@ -1831,7 +1800,7 @@ F 3 "" H 9900 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C41
+L beagle-wire:C C41
 U 1 1 58E12B6F
 P 10900 9750
 F 0 "C41" H 10925 9850 50  0000 L CNN
@@ -1842,7 +1811,7 @@ F 3 "" H 10900 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR069
+L beagle-wire:GND #PWR069
 U 1 1 58E12B7B
 P 10650 10000
 F 0 "#PWR069" H 10650 9750 50  0001 C CNN
@@ -1853,7 +1822,7 @@ F 3 "" H 10650 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR070
+L beagle-wire:GND #PWR070
 U 1 1 58E12B81
 P 9900 10000
 F 0 "#PWR070" H 9900 9750 50  0001 C CNN
@@ -1864,7 +1833,7 @@ F 3 "" H 9900 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR071
+L beagle-wire:GND #PWR071
 U 1 1 58E12B87
 P 10900 10000
 F 0 "#PWR071" H 10900 9750 50  0001 C CNN
@@ -1875,7 +1844,7 @@ F 3 "" H 10900 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C38
+L beagle-wire:C C38
 U 1 1 58E12B95
 P 10400 9750
 F 0 "C38" H 10425 9850 50  0000 L CNN
@@ -1886,7 +1855,7 @@ F 3 "" H 10400 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C42
+L beagle-wire:C C42
 U 1 1 58E12B9B
 P 11150 9750
 F 0 "C42" H 11175 9850 50  0000 L CNN
@@ -1897,7 +1866,7 @@ F 3 "" H 11150 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C37
+L beagle-wire:C C37
 U 1 1 58E12BA1
 P 10150 9750
 F 0 "C37" H 10175 9850 50  0000 L CNN
@@ -1908,7 +1877,7 @@ F 3 "" H 10150 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C43
+L beagle-wire:C C43
 U 1 1 58E12BA7
 P 11400 9750
 F 0 "C43" H 11425 9850 50  0000 L CNN
@@ -1919,7 +1888,7 @@ F 3 "" H 11400 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR072
+L beagle-wire:GND #PWR072
 U 1 1 58E12BAD
 P 10400 10000
 F 0 "#PWR072" H 10400 9750 50  0001 C CNN
@@ -1930,7 +1899,7 @@ F 3 "" H 10400 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR073
+L beagle-wire:GND #PWR073
 U 1 1 58E12BB3
 P 11150 10000
 F 0 "#PWR073" H 11150 9750 50  0001 C CNN
@@ -1941,7 +1910,7 @@ F 3 "" H 11150 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR074
+L beagle-wire:GND #PWR074
 U 1 1 58E12BB9
 P 10150 10000
 F 0 "#PWR074" H 10150 9750 50  0001 C CNN
@@ -1952,7 +1921,7 @@ F 3 "" H 10150 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR075
+L beagle-wire:GND #PWR075
 U 1 1 58E12BBF
 P 11400 10000
 F 0 "#PWR075" H 11400 9750 50  0001 C CNN
@@ -1963,7 +1932,7 @@ F 3 "" H 11400 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR076
+L beagle-wire:+3V3 #PWR076
 U 1 1 58E159DA
 P 9900 9400
 F 0 "#PWR076" H 9900 9250 50  0001 C CNN
@@ -1974,7 +1943,7 @@ F 3 "" H 9900 9400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MT48LC32M8A2P U6
+L beagle-wire:MT48LC32M8A2P U6
 U 1 1 58E02144
 P 12400 2400
 F 0 "U6" H 11800 3600 50  0000 C CNN
@@ -1987,7 +1956,7 @@ $EndComp
 Text GLabel 11500 2550 0    50   Input ~ 0
 SDRAM_A12
 $Comp
-L SW_PUSH SW1
+L beagle-wire:SW_PUSH SW1
 U 1 1 58E023C5
 P 11500 7850
 F 0 "SW1" H 11650 7960 50  0000 C CNN
@@ -1998,7 +1967,7 @@ F 3 "" H 11500 7850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SN74LVC2G14 U7
+L beagle-wire:SN74LVC2G14 U7
 U 1 1 58E0297D
 P 13150 7700
 F 0 "U7" H 13000 7700 60  0000 C CNN
@@ -2009,7 +1978,7 @@ F 3 "" H 13150 7700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR077
+L beagle-wire:GND #PWR077
 U 1 1 58E02A70
 P 11150 8000
 F 0 "#PWR077" H 11150 7750 50  0001 C CNN
@@ -2020,7 +1989,7 @@ F 3 "" H 11150 8000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR078
+L beagle-wire:+3V3 #PWR078
 U 1 1 58E0333F
 P 11850 7400
 F 0 "#PWR078" H 11850 7250 50  0001 C CNN
@@ -2031,7 +2000,7 @@ F 3 "" H 11850 7400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R17
+L beagle-wire:R R17
 U 1 1 58E03403
 P 11850 7650
 F 0 "R17" V 11930 7650 50  0000 C CNN
@@ -2042,7 +2011,7 @@ F 3 "" H 11850 7650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R19
+L beagle-wire:R R19
 U 1 1 58E034D6
 P 12050 7850
 F 0 "R19" V 12130 7850 50  0000 C CNN
@@ -2053,7 +2022,7 @@ F 3 "" H 12050 7850 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C44
+L beagle-wire:C C44
 U 1 1 58E035B7
 P 12250 8050
 F 0 "C44" H 12275 8150 50  0000 L CNN
@@ -2064,7 +2033,7 @@ F 3 "" H 12250 8050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR079
+L beagle-wire:GND #PWR079
 U 1 1 58E041F2
 P 12250 8250
 F 0 "#PWR079" H 12250 8000 50  0001 C CNN
@@ -2075,7 +2044,7 @@ F 3 "" H 12250 8250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_PUSH SW2
+L beagle-wire:SW_PUSH SW2
 U 1 1 58E061BD
 P 11500 8600
 F 0 "SW2" H 11650 8710 50  0000 C CNN
@@ -2086,7 +2055,7 @@ F 3 "" H 11500 8600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR080
+L beagle-wire:GND #PWR080
 U 1 1 58E061C3
 P 11150 8750
 F 0 "#PWR080" H 11150 8500 50  0001 C CNN
@@ -2097,7 +2066,7 @@ F 3 "" H 11150 8750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR081
+L beagle-wire:+3V3 #PWR081
 U 1 1 58E061C9
 P 11850 8150
 F 0 "#PWR081" H 11850 8000 50  0001 C CNN
@@ -2108,7 +2077,7 @@ F 3 "" H 11850 8150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R18
+L beagle-wire:R R18
 U 1 1 58E061CF
 P 11850 8400
 F 0 "R18" V 11930 8400 50  0000 C CNN
@@ -2119,7 +2088,7 @@ F 3 "" H 11850 8400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R20
+L beagle-wire:R R20
 U 1 1 58E061D5
 P 12050 8600
 F 0 "R20" V 12130 8600 50  0000 C CNN
@@ -2130,7 +2099,7 @@ F 3 "" H 12050 8600 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C45
+L beagle-wire:C C45
 U 1 1 58E061DB
 P 12250 8800
 F 0 "C45" H 12275 8900 50  0000 L CNN
@@ -2141,7 +2110,7 @@ F 3 "" H 12250 8800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR082
+L beagle-wire:GND #PWR082
 U 1 1 58E061E1
 P 12250 9000
 F 0 "#PWR082" H 12250 8750 50  0001 C CNN
@@ -2152,7 +2121,7 @@ F 3 "" H 12250 9000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR083
+L beagle-wire:GND #PWR083
 U 1 1 58E067DD
 P 12550 8050
 F 0 "#PWR083" H 12550 7800 50  0001 C CNN
@@ -2163,7 +2132,7 @@ F 3 "" H 12550 8050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C46
+L beagle-wire:C C46
 U 1 1 58E07FD5
 P 14250 8200
 F 0 "C46" H 14275 8300 50  0000 L CNN
@@ -2174,7 +2143,7 @@ F 3 "" H 14250 8200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR084
+L beagle-wire:GND #PWR084
 U 1 1 58E0833C
 P 14250 8400
 F 0 "#PWR084" H 14250 8150 50  0001 C CNN
@@ -2185,7 +2154,7 @@ F 3 "" H 14250 8400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR085
+L beagle-wire:+3V3 #PWR085
 U 1 1 58E0840E
 P 14250 7900
 F 0 "#PWR085" H 14250 7750 50  0001 C CNN
@@ -2204,7 +2173,7 @@ USER_BTN1
 Text GLabel 9100 3000 0    50   Input ~ 0
 USER_BTN0
 $Comp
-L R R9
+L beagle-wire:R R9
 U 1 1 58E10FD3
 P 2900 4400
 F 0 "R9" V 2980 4400 50  0000 C CNN
@@ -2215,7 +2184,7 @@ F 3 "" H 2900 4400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R8
+L beagle-wire:R R8
 U 1 1 58E11324
 P 2650 4400
 F 0 "R8" V 2730 4400 50  0000 C CNN
@@ -2226,7 +2195,7 @@ F 3 "" H 2650 4400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R3
+L beagle-wire:R R3
 U 1 1 58E133FB
 P 1700 4950
 F 0 "R3" V 1800 4900 50  0000 C CNN
@@ -2237,7 +2206,7 @@ F 3 "" H 1700 4950 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L SW_PUSH SW3
+L beagle-wire:SW_PUSH SW3
 U 1 1 58E14AB9
 P 2250 4950
 F 0 "SW3" H 2400 5060 50  0000 C CNN
@@ -2248,7 +2217,7 @@ F 3 "" H 2250 4950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L JUMPER JP1
+L beagle-wire:JUMPER JP1
 U 1 1 58E14BD2
 P 2250 4650
 F 0 "JP1" H 2250 4800 50  0000 C CNN
@@ -2259,7 +2228,7 @@ F 3 "" H 2250 4650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L JUMPER JP2
+L beagle-wire:JUMPER JP2
 U 1 1 58E14D0F
 P 2250 5350
 F 0 "JP2" H 2250 5500 50  0000 C CNN
@@ -2270,7 +2239,7 @@ F 3 "" H 2250 5350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR086
+L beagle-wire:GND #PWR086
 U 1 1 58E14EBA
 P 1450 5000
 F 0 "#PWR086" H 1450 4750 50  0001 C CNN
@@ -2281,7 +2250,7 @@ F 3 "" H 1450 5000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR087
+L beagle-wire:+3V3 #PWR087
 U 1 1 58E15076
 P 2650 4100
 F 0 "#PWR087" H 2650 3950 50  0001 C CNN
@@ -2292,7 +2261,7 @@ F 3 "" H 2650 4100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR088
+L beagle-wire:+3V3 #PWR088
 U 1 1 58E15154
 P 2900 4100
 F 0 "#PWR088" H 2900 3950 50  0001 C CNN
@@ -2307,7 +2276,7 @@ BB_CRESET
 Text GLabel 1850 4650 0    50   Input ~ 0
 BB_CDONE
 $Comp
-L Grove GR1
+L beagle-wire:Grove GR1
 U 1 1 58E2D41B
 P 15700 5750
 F 0 "GR1" H 15650 5800 60  0000 C CNN
@@ -2318,7 +2287,7 @@ F 3 "" H 15700 5750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Grove GR2
+L beagle-wire:Grove GR2
 U 1 1 58E2D552
 P 15700 7050
 F 0 "GR2" H 15650 7100 60  0000 C CNN
@@ -2329,7 +2298,7 @@ F 3 "" H 15700 7050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Grove GR3
+L beagle-wire:Grove GR3
 U 1 1 58E2D64F
 P 13450 5600
 F 0 "GR3" H 13400 5650 60  0000 C CNN
@@ -2340,7 +2309,7 @@ F 3 "" H 13450 5600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Grove GR4
+L beagle-wire:Grove GR4
 U 1 1 58E2D7D4
 P 13450 6350
 F 0 "GR4" H 13400 6400 60  0000 C CNN
@@ -2351,7 +2320,7 @@ F 3 "" H 13450 6350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR089
+L beagle-wire:+3V3 #PWR089
 U 1 1 58E2F050
 P 12450 6650
 F 0 "#PWR089" H 12450 6500 50  0001 C CNN
@@ -2362,7 +2331,7 @@ F 3 "" H 12450 6650 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3V3 #PWR090
+L beagle-wire:+3V3 #PWR090
 U 1 1 58E2F136
 P 12450 5900
 F 0 "#PWR090" H 12450 5750 50  0001 C CNN
@@ -2373,7 +2342,7 @@ F 3 "" H 12450 5900 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3V3 #PWR091
+L beagle-wire:+3V3 #PWR091
 U 1 1 58E2F519
 P 14400 6050
 F 0 "#PWR091" H 14400 5900 50  0001 C CNN
@@ -2384,7 +2353,7 @@ F 3 "" H 14400 6050 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR092
+L beagle-wire:GND #PWR092
 U 1 1 58E305FD
 P 13050 6800
 F 0 "#PWR092" H 13050 6550 50  0001 C CNN
@@ -2395,7 +2364,7 @@ F 3 "" H 13050 6800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR093
+L beagle-wire:GND #PWR093
 U 1 1 58E306E3
 P 13050 6050
 F 0 "#PWR093" H 13050 5800 50  0001 C CNN
@@ -2406,7 +2375,7 @@ F 3 "" H 13050 6050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR094
+L beagle-wire:GND #PWR094
 U 1 1 58E307C9
 P 15300 7500
 F 0 "#PWR094" H 15300 7250 50  0001 C CNN
@@ -2417,7 +2386,7 @@ F 3 "" H 15300 7500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR095
+L beagle-wire:GND #PWR095
 U 1 1 58E31566
 P 15300 6200
 F 0 "#PWR095" H 15300 5950 50  0001 C CNN
@@ -2428,7 +2397,7 @@ F 3 "" H 15300 6200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R25
+L beagle-wire:R R25
 U 1 1 58E32CE0
 P 15300 5650
 F 0 "R25" V 15380 5650 50  0000 C CNN
@@ -2439,7 +2408,7 @@ F 3 "" H 15300 5650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R23
+L beagle-wire:R R23
 U 1 1 58E32EE9
 P 15100 5650
 F 0 "R23" V 15180 5650 50  0000 C CNN
@@ -2450,7 +2419,7 @@ F 3 "" H 15100 5650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R26
+L beagle-wire:R R26
 U 1 1 58E3370B
 P 15300 6950
 F 0 "R26" V 15380 6950 50  0000 C CNN
@@ -2461,7 +2430,7 @@ F 3 "" H 15300 6950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R24
+L beagle-wire:R R24
 U 1 1 58E33820
 P 15100 6950
 F 0 "R24" V 15180 6950 50  0000 C CNN
@@ -2472,7 +2441,7 @@ F 3 "" H 15100 6950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR096
+L beagle-wire:+3V3 #PWR096
 U 1 1 58E33B4D
 P 15300 6700
 F 0 "#PWR096" H 15300 6550 50  0001 C CNN
@@ -2483,7 +2452,7 @@ F 3 "" H 15300 6700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR097
+L beagle-wire:+3V3 #PWR097
 U 1 1 58E33C3B
 P 15100 6700
 F 0 "#PWR097" H 15100 6550 50  0001 C CNN
@@ -2494,7 +2463,7 @@ F 3 "" H 15100 6700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR098
+L beagle-wire:+3V3 #PWR098
 U 1 1 58E33D29
 P 15300 5400
 F 0 "#PWR098" H 15300 5250 50  0001 C CNN
@@ -2505,7 +2474,7 @@ F 3 "" H 15300 5400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR099
+L beagle-wire:+3V3 #PWR099
 U 1 1 58E33E17
 P 15100 5400
 F 0 "#PWR099" H 15100 5250 50  0001 C CNN
@@ -2528,7 +2497,7 @@ GROVE3_IO0
 Text GLabel 15000 5950 0    50   Input ~ 0
 GROVE1_IO1
 $Comp
-L +3V3 #PWR0100
+L beagle-wire:+3V3 #PWR0100
 U 1 1 58E41019
 P 14400 7350
 F 0 "#PWR0100" H 14400 7200 50  0001 C CNN
@@ -2621,7 +2590,7 @@ USER_SW0
 Text GLabel 9100 3700 0    50   Input ~ 0
 USER_SW1
 $Comp
-L +3V3 #PWR0101
+L beagle-wire:+3V3 #PWR0101
 U 1 1 58E5F120
 P 11650 4500
 F 0 "#PWR0101" H 11650 4350 50  0001 C CNN
@@ -2640,7 +2609,7 @@ PMOD3_A3
 Text GLabel 14800 3650 0    50   Input ~ 0
 PMOD3_A4
 $Comp
-L CONN_02X06 P3
+L beagle-wire:CONN_02X06 P3
 U 1 1 58E71CB5
 P 15150 3600
 F 0 "P3" H 15150 3950 50  0000 C CNN
@@ -2651,7 +2620,7 @@ F 3 "" H 15150 2400 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L CONN_02X06 P4
+L beagle-wire:CONN_02X06 P4
 U 1 1 58E71CBB
 P 15150 4500
 F 0 "P4" H 15150 4850 50  0000 C CNN
@@ -2662,7 +2631,7 @@ F 3 "" H 15150 3300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR0102
+L beagle-wire:+3V3 #PWR0102
 U 1 1 58E71CC7
 P 14350 3850
 F 0 "#PWR0102" H 14350 3700 50  0001 C CNN
@@ -2681,7 +2650,7 @@ PMOD4_A3
 Text GLabel 14800 4550 0    50   Input ~ 0
 PMOD4_A4
 $Comp
-L +3V3 #PWR0103
+L beagle-wire:+3V3 #PWR0103
 U 1 1 58E71CDD
 P 14350 4750
 F 0 "#PWR0103" H 14350 4600 50  0001 C CNN
@@ -2700,7 +2669,7 @@ PMOD3_B3
 Text GLabel 15500 3650 2    50   Input ~ 0
 PMOD3_B4
 $Comp
-L +3V3 #PWR0104
+L beagle-wire:+3V3 #PWR0104
 U 1 1 58E71CF9
 P 15950 3850
 F 0 "#PWR0104" H 15950 3700 50  0001 C CNN
@@ -2719,7 +2688,7 @@ PMOD4_B3
 Text GLabel 15500 4550 2    50   Input ~ 0
 PMOD4_B4
 $Comp
-L +3V3 #PWR0105
+L beagle-wire:+3V3 #PWR0105
 U 1 1 58E71D10
 P 15950 4750
 F 0 "#PWR0105" H 15950 4600 50  0001 C CNN
@@ -2764,11 +2733,11 @@ PMOD4_B4
 Wire Wire Line
 	2700 3250 2850 3250
 Wire Wire Line
-	2850 3250 2850 3550
+	2850 3250 2850 3350
 Wire Wire Line
-	2850 3550 2050 3550
+	2850 3550 2450 3550
 Wire Wire Line
-	2050 3550 2050 3250
+	2050 3550 2050 3350
 Wire Wire Line
 	2050 3250 2200 3250
 Wire Wire Line
@@ -2861,9 +2830,9 @@ Wire Wire Line
 Wire Wire Line
 	5400 1250 5500 1250
 Wire Wire Line
-	8800 4850 10250 4850
+	8800 4850 9450 4850
 Wire Wire Line
-	8800 4950 10250 4950
+	8800 4950 9350 4950
 Wire Wire Line
 	4600 4300 4700 4300
 Wire Wire Line
@@ -2917,14 +2886,14 @@ Wire Wire Line
 Wire Wire Line
 	11300 6350 11200 6350
 Wire Wire Line
-	9200 6450 10000 6450
+	9200 6450 9450 6450
 Wire Wire Line
 	9450 4850 9450 6450
 Connection ~ 9450 4850
 Wire Wire Line
 	10600 7050 10600 7100
 Wire Wire Line
-	9050 6550 10000 6550
+	9050 6550 9350 6550
 Wire Wire Line
 	9350 4950 9350 6550
 Connection ~ 9350 4950
@@ -2933,7 +2902,7 @@ Wire Wire Line
 Wire Wire Line
 	11000 5850 11000 5900
 Wire Wire Line
-	10600 5750 10600 6050
+	10600 5750 10600 5850
 Wire Wire Line
 	10600 5850 10700 5850
 Wire Wire Line
@@ -2942,15 +2911,15 @@ Wire Wire Line
 	7050 1250 7200 1250
 Connection ~ 10600 5850
 Wire Wire Line
-	9950 5050 10250 5050
+	9950 5050 10100 5050
 Wire Wire Line
 	10100 5050 10100 5100
 Wire Wire Line
 	10100 5300 10100 5350
 Wire Wire Line
-	8750 5750 8750 5850
+	8750 5750 8750 5800
 Wire Wire Line
-	8750 5800 9200 5800
+	8750 5800 8900 5800
 Wire Wire Line
 	8900 5800 8900 5850
 Connection ~ 8750 5800
@@ -2966,18 +2935,18 @@ Connection ~ 10100 5050
 Wire Wire Line
 	3300 8800 3300 8700
 Wire Wire Line
-	4450 8000 4450 8400
+	4450 8000 4450 8300
 Wire Wire Line
-	3300 8000 3300 8400
+	3300 8000 3300 8300
 Wire Wire Line
 	4450 8800 4450 8700
 Wire Wire Line
-	6050 8000 6050 8400
+	6050 8000 6050 8300
 Wire Wire Line
 	5800 8300 6050 8300
 Connection ~ 6050 8300
 Wire Wire Line
-	4900 8000 4900 8400
+	4900 8000 4900 8300
 Wire Wire Line
 	6050 8700 6050 8800
 Wire Wire Line
@@ -3019,9 +2988,9 @@ Wire Wire Line
 Wire Wire Line
 	1950 7950 2000 7950
 Wire Wire Line
-	6500 8700 6500 8850
+	6500 8700 6500 8750
 Wire Wire Line
-	6500 8000 6500 8400
+	6500 8000 6500 8050
 Wire Wire Line
 	6550 8350 6500 8350
 Connection ~ 6500 8350
@@ -3066,14 +3035,14 @@ Wire Wire Line
 Wire Wire Line
 	1450 6800 1450 6850
 Wire Wire Line
-	1450 6850 2650 6850
+	1450 6850 1700 6850
 Wire Wire Line
 	1700 6850 1700 6800
 Wire Wire Line
 	1950 6850 1950 6800
 Connection ~ 1700 6850
 Wire Wire Line
-	1700 6450 2650 6450
+	1700 6450 1950 6450
 Connection ~ 1950 6850
 Connection ~ 1950 6450
 Wire Wire Line
@@ -3081,7 +3050,7 @@ Wire Wire Line
 Wire Wire Line
 	1450 6100 1450 6150
 Wire Wire Line
-	1450 6150 2250 6150
+	1450 6150 1700 6150
 Wire Wire Line
 	1700 6150 1700 6100
 Wire Wire Line
@@ -3090,7 +3059,7 @@ Connection ~ 1700 6150
 Wire Wire Line
 	1700 5750 1700 5800
 Wire Wire Line
-	1700 5750 2450 5750
+	1700 5750 1950 5750
 Wire Wire Line
 	1950 5750 1950 5800
 Wire Wire Line
@@ -3132,9 +3101,9 @@ Wire Wire Line
 Wire Wire Line
 	3600 9900 3600 10000
 Wire Wire Line
-	3600 9450 3600 9600
+	3600 9450 3600 9500
 Wire Wire Line
-	3600 9500 4350 9500
+	3600 9500 3850 9500
 Wire Wire Line
 	3850 9500 3850 9600
 Connection ~ 3600 9500
@@ -3153,9 +3122,9 @@ Wire Wire Line
 Wire Wire Line
 	4650 9900 4650 10000
 Wire Wire Line
-	4650 9450 4650 9600
+	4650 9450 4650 9500
 Wire Wire Line
-	4650 9500 5400 9500
+	4650 9500 4900 9500
 Wire Wire Line
 	4900 9500 4900 9600
 Connection ~ 4650 9500
@@ -3174,9 +3143,9 @@ Wire Wire Line
 Wire Wire Line
 	5700 9900 5700 10000
 Wire Wire Line
-	5700 9450 5700 9600
+	5700 9450 5700 9500
 Wire Wire Line
-	5700 9500 6450 9500
+	5700 9500 5950 9500
 Wire Wire Line
 	5950 9500 5950 9600
 Connection ~ 5700 9500
@@ -3195,9 +3164,9 @@ Wire Wire Line
 Wire Wire Line
 	6750 9900 6750 10000
 Wire Wire Line
-	6750 9450 6750 9600
+	6750 9450 6750 9500
 Wire Wire Line
-	6750 9500 7500 9500
+	6750 9500 7000 9500
 Wire Wire Line
 	7000 9500 7000 9600
 Connection ~ 6750 9500
@@ -3216,7 +3185,7 @@ Wire Wire Line
 Wire Wire Line
 	7850 9900 7850 10000
 Wire Wire Line
-	7850 9450 7850 9600
+	7850 9450 7850 9500
 Wire Wire Line
 	8100 9500 8100 9600
 Wire Wire Line
@@ -3240,7 +3209,7 @@ Wire Wire Line
 Wire Wire Line
 	9600 9500 9600 9600
 Wire Wire Line
-	7850 9500 9600 9500
+	7850 9500 8100 9500
 Connection ~ 7850 9500
 Connection ~ 8100 9500
 Connection ~ 8350 9500
@@ -3385,9 +3354,9 @@ Wire Wire Line
 Wire Wire Line
 	13200 3100 13300 3100
 Wire Wire Line
-	12100 3700 12100 3850
+	12100 3700 12100 3800
 Wire Wire Line
-	12100 3800 12700 3800
+	12100 3800 12200 3800
 Wire Wire Line
 	12700 3800 12700 3700
 Connection ~ 12100 3800
@@ -3407,9 +3376,9 @@ Wire Wire Line
 	12200 3700 12200 3800
 Connection ~ 12200 3800
 Wire Wire Line
-	12100 900  12100 1100
+	12100 900  12100 1000
 Wire Wire Line
-	12100 1000 12700 1000
+	12100 1000 12200 1000
 Wire Wire Line
 	12700 1000 12700 1100
 Connection ~ 12100 1000
@@ -3429,7 +3398,7 @@ Wire Wire Line
 	12200 1100 12200 1000
 Connection ~ 12200 1000
 Wire Wire Line
-	9150 7850 9150 8100
+	9150 7850 9150 7900
 Wire Wire Line
 	9150 8850 9150 9000
 Wire Wire Line
@@ -3444,9 +3413,9 @@ Wire Wire Line
 Wire Wire Line
 	8600 8650 8750 8650
 Wire Wire Line
-	9550 8350 10050 8350
+	9550 8350 9650 8350
 Wire Wire Line
-	9550 8500 10050 8500
+	9550 8500 9900 8500
 Wire Wire Line
 	9900 8300 9900 8500
 Connection ~ 9900 8500
@@ -3470,7 +3439,7 @@ Wire Wire Line
 Wire Wire Line
 	10650 9500 10650 9600
 Wire Wire Line
-	9900 9400 9900 9600
+	9900 9400 9900 9500
 Wire Wire Line
 	10900 9500 10900 9600
 Wire Wire Line
@@ -3488,7 +3457,7 @@ Wire Wire Line
 Wire Wire Line
 	11400 9500 11400 9600
 Wire Wire Line
-	9900 9500 11400 9500
+	9900 9500 10150 9500
 Wire Wire Line
 	10150 9500 10150 9600
 Connection ~ 9900 9500
@@ -3498,7 +3467,7 @@ Connection ~ 10650 9500
 Connection ~ 10900 9500
 Connection ~ 11150 9500
 Wire Wire Line
-	8600 8250 8600 9000
+	8600 8250 8600 8300
 Connection ~ 8600 8650
 Connection ~ 8600 8400
 Connection ~ 8600 8300
@@ -3529,12 +3498,12 @@ Wire Wire Line
 Wire Wire Line
 	11150 7850 11150 8000
 Wire Wire Line
-	11800 7850 11900 7850
+	11800 7850 11850 7850
 Wire Wire Line
 	11850 7800 11850 7850
 Connection ~ 11850 7850
 Wire Wire Line
-	12200 7850 12750 7850
+	12200 7850 12250 7850
 Wire Wire Line
 	12250 7850 12250 7900
 Wire Wire Line
@@ -3547,7 +3516,7 @@ Wire Wire Line
 Wire Wire Line
 	11150 8600 11150 8750
 Wire Wire Line
-	11800 8600 11900 8600
+	11800 8600 11850 8600
 Wire Wire Line
 	11850 8550 11850 8600
 Connection ~ 11850 8600
@@ -3556,7 +3525,7 @@ Wire Wire Line
 Wire Wire Line
 	12250 8950 12250 9000
 Wire Wire Line
-	12200 8600 12650 8600
+	12200 8600 12250 8600
 Wire Wire Line
 	12650 8600 12650 8050
 Wire Wire Line
@@ -3577,9 +3546,9 @@ Wire Wire Line
 Wire Wire Line
 	2900 4550 2900 4650
 Wire Wire Line
-	2550 4650 3050 4650
+	2550 4650 2900 4650
 Wire Wire Line
-	2550 4950 3050 4950
+	2550 4950 2650 4950
 Wire Wire Line
 	1550 4950 1450 4950
 Wire Wire Line
@@ -3595,7 +3564,7 @@ Wire Wire Line
 Wire Wire Line
 	1450 4950 1450 5000
 Wire Wire Line
-	2650 4550 2650 5350
+	2650 4550 2650 4950
 Wire Wire Line
 	12450 6650 13100 6650
 Wire Wire Line
@@ -3625,19 +3594,19 @@ Wire Wire Line
 Wire Wire Line
 	15300 7100 15300 7150
 Wire Wire Line
-	15000 7150 15350 7150
+	15000 7150 15300 7150
 Wire Wire Line
 	15100 7100 15100 7250
 Wire Wire Line
-	15000 7250 15350 7250
+	15000 7250 15100 7250
 Wire Wire Line
 	15300 5800 15300 5850
 Wire Wire Line
-	15000 5850 15350 5850
+	15000 5850 15300 5850
 Wire Wire Line
 	15100 5800 15100 5950
 Wire Wire Line
-	15000 5950 15350 5950
+	15000 5950 15100 5950
 Wire Wire Line
 	13050 6550 13100 6550
 Wire Wire Line
@@ -3739,7 +3708,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 2450 2100 2450
 Wire Wire Line
-	14250 7900 14250 8050
+	14250 7900 14250 7950
 Wire Wire Line
 	13550 7950 14250 7950
 Connection ~ 14250 7950
@@ -3748,9 +3717,9 @@ Wire Wire Line
 Wire Wire Line
 	13000 4650 13200 4650
 Wire Wire Line
-	12150 4650 12400 4650
+	12150 4650 12250 4650
 Wire Wire Line
-	12150 4750 12400 4750
+	12150 4750 12350 4750
 Wire Wire Line
 	11650 4650 11850 4650
 Wire Wire Line
@@ -3852,7 +3821,7 @@ Wire Wire Line
 Wire Wire Line
 	7200 1750 7050 1750
 Wire Wire Line
-	2750 7950 2750 9200
+	2750 7950 2750 8300
 Text GLabel 7150 5900 0    50   Input ~ 0
 SDRAM_CLK
 Text GLabel 7150 5600 0    50   Input ~ 0
@@ -3870,7 +3839,7 @@ SDRAM_DQM
 Wire Wire Line
 	4600 6900 4700 6900
 $Comp
-L R R21
+L beagle-wire:R R21
 U 1 1 58EA77BB
 P 12000 4650
 F 0 "R21" V 11900 4650 50  0000 C CNN
@@ -3881,7 +3850,7 @@ F 3 "" H 12000 4650 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R22
+L beagle-wire:R R22
 U 1 1 58EA78C2
 P 12000 4750
 F 0 "R22" V 12080 4750 50  0000 C CNN
@@ -3892,7 +3861,7 @@ F 3 "" H 12000 4750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	11650 4500 11650 4750
+	11650 4500 11650 4650
 Connection ~ 11650 4650
 Text GLabel 2100 2150 0    50   Input ~ 0
 BB_CDONE
@@ -3950,7 +3919,7 @@ NoConn ~ 2700 2750
 NoConn ~ 2200 1550
 NoConn ~ 2650 6750
 $Comp
-L GND #PWR0106
+L beagle-wire:GND #PWR0106
 U 1 1 58F12769
 P 2450 3650
 F 0 "#PWR0106" H 2450 3400 50  0001 C CNN
@@ -3961,7 +3930,7 @@ F 3 "" H 2450 3650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0107
+L beagle-wire:GND #PWR0107
 U 1 1 58F12986
 P 1400 1150
 F 0 "#PWR0107" H 1400 900 50  0001 C CNN
@@ -3972,7 +3941,7 @@ F 3 "" H 1400 1150 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR0108
+L beagle-wire:GND #PWR0108
 U 1 1 58F12ACF
 P 3500 1150
 F 0 "#PWR0108" H 3500 900 50  0001 C CNN
@@ -3983,7 +3952,7 @@ F 3 "" H 3500 1150 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR0109
+L beagle-wire:GND #PWR0109
 U 1 1 58F12C18
 P 4350 1150
 F 0 "#PWR0109" H 4350 900 50  0001 C CNN
@@ -3994,7 +3963,7 @@ F 3 "" H 4350 1150 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR0110
+L beagle-wire:GND #PWR0110
 U 1 1 58F12D61
 P 5950 1150
 F 0 "#PWR0110" H 5950 900 50  0001 C CNN
@@ -4005,7 +3974,7 @@ F 3 "" H 5950 1150 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR0111
+L beagle-wire:GND #PWR0111
 U 1 1 58F13190
 P 10600 7100
 F 0 "#PWR0111" H 10600 6850 50  0001 C CNN
@@ -4016,7 +3985,7 @@ F 3 "" H 10600 7100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0112
+L beagle-wire:GND #PWR0112
 U 1 1 58F132D9
 P 10100 5350
 F 0 "#PWR0112" H 10100 5100 50  0001 C CNN
@@ -4027,7 +3996,7 @@ F 3 "" H 10100 5350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0113
+L beagle-wire:GND #PWR0113
 U 1 1 58F13634
 P 14750 4850
 F 0 "#PWR0113" H 14750 4600 50  0001 C CNN
@@ -4038,7 +4007,7 @@ F 3 "" H 14750 4850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0114
+L beagle-wire:GND #PWR0114
 U 1 1 58F1377D
 P 15550 4850
 F 0 "#PWR0114" H 15550 4600 50  0001 C CNN
@@ -4049,7 +4018,7 @@ F 3 "" H 15550 4850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0115
+L beagle-wire:GND #PWR0115
 U 1 1 58F138C6
 P 14750 3950
 F 0 "#PWR0115" H 14750 3700 50  0001 C CNN
@@ -4060,7 +4029,7 @@ F 3 "" H 14750 3950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0116
+L beagle-wire:GND #PWR0116
 U 1 1 58F13A0F
 P 15550 3950
 F 0 "#PWR0116" H 15550 3700 50  0001 C CNN
@@ -4071,7 +4040,7 @@ F 3 "" H 15550 3950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0117
+L beagle-wire:GND #PWR0117
 U 1 1 58F13DD4
 P 14750 2850
 F 0 "#PWR0117" H 14750 2600 50  0001 C CNN
@@ -4082,7 +4051,7 @@ F 3 "" H 14750 2850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0118
+L beagle-wire:GND #PWR0118
 U 1 1 58F13F1D
 P 15550 2850
 F 0 "#PWR0118" H 15550 2600 50  0001 C CNN
@@ -4093,7 +4062,7 @@ F 3 "" H 15550 2850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0119
+L beagle-wire:GND #PWR0119
 U 1 1 58F14066
 P 14750 1950
 F 0 "#PWR0119" H 14750 1700 50  0001 C CNN
@@ -4104,7 +4073,7 @@ F 3 "" H 14750 1950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0120
+L beagle-wire:GND #PWR0120
 U 1 1 58F141AF
 P 15550 1950
 F 0 "#PWR0120" H 15550 1700 50  0001 C CNN
@@ -4115,7 +4084,7 @@ F 3 "" H 15550 1950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0121
+L beagle-wire:GND #PWR0121
 U 1 1 58F1573D
 P 11000 5900
 F 0 "#PWR0121" H 11000 5650 50  0001 C CNN
@@ -4126,7 +4095,7 @@ F 3 "" H 11000 5900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0122
+L beagle-wire:GND #PWR0122
 U 1 1 58F15CB5
 P 12100 3850
 F 0 "#PWR0122" H 12100 3600 50  0001 C CNN
@@ -4137,7 +4106,7 @@ F 3 "" H 12100 3850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0123
+L beagle-wire:GND #PWR0123
 U 1 1 58F673E8
 P 4250 8800
 F 0 "#PWR0123" H 4250 8550 50  0001 C CNN
@@ -4148,7 +4117,7 @@ F 3 "" H 4250 8800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0124
+L beagle-wire:GND #PWR0124
 U 1 1 58F67675
 P 5850 8800
 F 0 "#PWR0124" H 5850 8550 50  0001 C CNN
@@ -4175,7 +4144,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 8500 3550 8800
 $Comp
-L ASDM100MHZ-LY-T Y1
+L beagle-wire:ASDM100MHZ-LY-T Y1
 U 1 1 592085B2
 P 7050 8200
 F 0 "Y1" H 6800 8300 60  0000 C CNN
@@ -4186,9 +4155,9 @@ F 3 "" H 7050 8200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8800 4650 10250 4650
+	8800 4650 9550 4650
 Wire Wire Line
-	10250 4750 8800 4750
+	10250 4750 9650 4750
 Wire Wire Line
 	9550 6350 9550 4650
 Connection ~ 9550 4650
@@ -4196,7 +4165,7 @@ Wire Wire Line
 	9650 4750 9650 5550
 Connection ~ 9650 4750
 $Comp
-L SW_DIP_x02 SW4
+L beagle-wire:SW_DIP_x02 SW4
 U 1 1 59248152
 P 12700 4750
 F 0 "SW4" H 12700 5000 50  0000 C CNN
@@ -4207,7 +4176,7 @@ F 3 "" H 12700 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R27
+L beagle-wire:R R27
 U 1 1 5939CE58
 P 8350 8100
 F 0 "R27" V 8430 8100 50  0000 C CNN
@@ -4222,7 +4191,7 @@ Wire Wire Line
 Wire Wire Line
 	8350 8500 8750 8500
 $Comp
-L +3V3 #PWR0125
+L beagle-wire:+3V3 #PWR0125
 U 1 1 5939D4C1
 P 8350 7850
 F 0 "#PWR0125" H 8350 7700 50  0001 C CNN
@@ -4235,7 +4204,7 @@ $EndComp
 Wire Wire Line
 	8350 7850 8350 7950
 $Comp
-L GND #PWR0126
+L beagle-wire:GND #PWR0126
 U 1 1 593A02D8
 P 13200 4900
 F 0 "#PWR0126" H 13200 4650 50  0001 C CNN
@@ -4246,7 +4215,7 @@ F 3 "" H 13200 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13200 4650 13200 4900
+	13200 4650 13200 4750
 Connection ~ 13200 4750
 Wire Wire Line
 	12500 4350 12350 4350
@@ -4259,7 +4228,7 @@ Wire Wire Line
 	12350 4350 12350 4750
 Connection ~ 12350 4750
 $Comp
-L Mounting_Hole MK1
+L beagle-wire:Mounting_Hole MK1
 U 1 1 5AFC6E73
 P 15275 8850
 F 0 "MK1" H 15375 8896 50  0000 L CNN
@@ -4270,7 +4239,7 @@ F 3 "" H 15275 8850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mounting_Hole MK2
+L beagle-wire:Mounting_Hole MK2
 U 1 1 5AFC72D9
 P 15275 9025
 F 0 "MK2" H 15375 9071 50  0000 L CNN
@@ -4280,4 +4249,182 @@ F 3 "" H 15275 9025 50  0001 C CNN
 	1    15275 9025
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2050 3350 2050 3250
+Wire Wire Line
+	2850 3350 2850 3550
+Wire Wire Line
+	2450 3550 2050 3550
+Wire Wire Line
+	9450 4850 10250 4850
+Wire Wire Line
+	9350 4950 10250 4950
+Wire Wire Line
+	10600 5850 10600 6050
+Wire Wire Line
+	8750 5800 8750 5850
+Wire Wire Line
+	10100 5050 10250 5050
+Wire Wire Line
+	6050 8300 6050 8400
+Wire Wire Line
+	4450 8300 4450 8400
+Wire Wire Line
+	3300 8300 3300 8400
+Wire Wire Line
+	4900 8300 4900 8400
+Wire Wire Line
+	2750 8900 2750 9200
+Wire Wire Line
+	2750 8600 2750 8900
+Wire Wire Line
+	2750 8300 2750 8600
+Wire Wire Line
+	6500 8350 6500 8400
+Wire Wire Line
+	6500 8750 6500 8850
+Wire Wire Line
+	6500 8050 6500 8350
+Wire Wire Line
+	1700 6850 1950 6850
+Wire Wire Line
+	1950 6850 2650 6850
+Wire Wire Line
+	1950 6450 2650 6450
+Wire Wire Line
+	1700 6150 1950 6150
+Wire Wire Line
+	1950 5750 2450 5750
+Wire Wire Line
+	1950 6150 2250 6150
+Wire Wire Line
+	3600 9500 3600 9600
+Wire Wire Line
+	3850 9500 4100 9500
+Wire Wire Line
+	4100 9500 4350 9500
+Wire Wire Line
+	4650 9500 4650 9600
+Wire Wire Line
+	4900 9500 5150 9500
+Wire Wire Line
+	5150 9500 5400 9500
+Wire Wire Line
+	5700 9500 5700 9600
+Wire Wire Line
+	5950 9500 6200 9500
+Wire Wire Line
+	6200 9500 6450 9500
+Wire Wire Line
+	6750 9500 6750 9600
+Wire Wire Line
+	7000 9500 7250 9500
+Wire Wire Line
+	7250 9500 7500 9500
+Wire Wire Line
+	7850 9500 7850 9600
+Wire Wire Line
+	8100 9500 8350 9500
+Wire Wire Line
+	8350 9500 8600 9500
+Wire Wire Line
+	8600 9500 8850 9500
+Wire Wire Line
+	8850 9500 9100 9500
+Wire Wire Line
+	9100 9500 9350 9500
+Wire Wire Line
+	9350 9500 9600 9500
+Wire Wire Line
+	9450 6450 10000 6450
+Wire Wire Line
+	9350 6550 10000 6550
+Wire Wire Line
+	8900 5800 9050 5800
+Wire Wire Line
+	9050 5800 9200 5800
+Wire Wire Line
+	12100 3800 12100 3850
+Wire Wire Line
+	12600 3800 12700 3800
+Wire Wire Line
+	12500 3800 12600 3800
+Wire Wire Line
+	12400 3800 12500 3800
+Wire Wire Line
+	12300 3800 12400 3800
+Wire Wire Line
+	12200 3800 12300 3800
+Wire Wire Line
+	12100 1000 12100 1100
+Wire Wire Line
+	12600 1000 12700 1000
+Wire Wire Line
+	12500 1000 12600 1000
+Wire Wire Line
+	12400 1000 12500 1000
+Wire Wire Line
+	12300 1000 12400 1000
+Wire Wire Line
+	12200 1000 12300 1000
+Wire Wire Line
+	9150 7900 9150 8100
+Wire Wire Line
+	9900 8500 10050 8500
+Wire Wire Line
+	9650 8350 10050 8350
+Wire Wire Line
+	9900 9500 9900 9600
+Wire Wire Line
+	10150 9500 10400 9500
+Wire Wire Line
+	10400 9500 10650 9500
+Wire Wire Line
+	10650 9500 10900 9500
+Wire Wire Line
+	10900 9500 11150 9500
+Wire Wire Line
+	11150 9500 11400 9500
+Wire Wire Line
+	8600 8650 8600 9000
+Wire Wire Line
+	8600 8400 8600 8650
+Wire Wire Line
+	8600 8300 8600 8400
+Wire Wire Line
+	11850 7850 11900 7850
+Wire Wire Line
+	12250 7850 12750 7850
+Wire Wire Line
+	11850 8600 11900 8600
+Wire Wire Line
+	12250 8600 12650 8600
+Wire Wire Line
+	2650 4950 3050 4950
+Wire Wire Line
+	2650 4950 2650 5350
+Wire Wire Line
+	2900 4650 3050 4650
+Wire Wire Line
+	15300 5850 15350 5850
+Wire Wire Line
+	15100 5950 15350 5950
+Wire Wire Line
+	15300 7150 15350 7150
+Wire Wire Line
+	15100 7250 15350 7250
+Wire Wire Line
+	14250 7950 14250 8050
+Wire Wire Line
+	11650 4650 11650 4750
+Wire Wire Line
+	9550 4650 10250 4650
+Wire Wire Line
+	9650 4750 8800 4750
+Wire Wire Line
+	13200 4750 13200 4900
+Wire Wire Line
+	12250 4650 12400 4650
+Wire Wire Line
+	12350 4750 12400 4750
 $EndSCHEMATC

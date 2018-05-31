@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# beagle-wire-rescue:+1V2
+# +1V2
 #
-DEF beagle-wire-rescue:+1V2 #PWR 0 0 Y Y 1 F P
+DEF +1V2 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "beagle-wire-rescue:+1V2" 0 140 50 H V C CNN
+F1 "+1V2" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +1V2 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# beagle-wire-rescue:+3V3
+# +3V3
 #
-DEF beagle-wire-rescue:+3V3 #PWR 0 0 Y Y 1 F P
+DEF +3V3 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "beagle-wire-rescue:+3V3" 0 140 50 H V C CNN
+F1 "+3V3" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -31,11 +31,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# beagle-wire-rescue:+5V
+# +5V
 #
-DEF beagle-wire-rescue:+5V #PWR 0 0 Y Y 1 F P
+DEF +5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "beagle-wire-rescue:+5V" 0 140 50 H V C CNN
+F1 "+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -46,11 +46,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# beagle-wire-rescue:ASDM100MHZ-LY-T
+# ASDM100MHZ-LY-T
 #
-DEF beagle-wire-rescue:ASDM100MHZ-LY-T Y 0 40 Y Y 1 F N
+DEF ASDM100MHZ-LY-T Y 0 40 Y Y 1 F N
 F0 "Y" -250 100 60 H V C CNN
-F1 "beagle-wire-rescue:ASDM100MHZ-LY-T" 50 0 60 H V C CNN
+F1 "ASDM100MHZ-LY-T" 50 0 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -62,11 +62,11 @@ X VDD 4 -500 -150 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# beagle-wire-rescue:AT24CS32-XHM
+# AT24CS32-XHM
 #
-DEF beagle-wire-rescue:AT24CS32-XHM U 0 40 Y Y 1 F N
+DEF AT24CS32-XHM U 0 40 Y Y 1 F N
 F0 "U" -200 250 50 H V C CNN
-F1 "beagle-wire-rescue:AT24CS32-XHM" 300 -300 50 H V C CNN
+F1 "AT24CS32-XHM" 300 -300 50 H V C CNN
 F2 "TSSOP8" 0 0 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -85,11 +85,11 @@ X VCC 8 0 350 150 D 40 40 1 1 W
 ENDDRAW
 ENDDEF
 #
-# beagle-wire-rescue:BeagleBone_Black_Header
+# BeagleBone_Black_Header
 #
-DEF beagle-wire-rescue:BeagleBone_Black_Header P 0 1 Y N 1 F N
+DEF BeagleBone_Black_Header P 0 1 Y N 1 F N
 F0 "P" 0 1200 50 H V C CNN
-F1 "beagle-wire-rescue:BeagleBone_Black_Header" 0 0 50 V V C CNN
+F1 "BeagleBone_Black_Header" 0 0 50 V V C CNN
 F2 "" 0 -850 60 H V C CNN
 F3 "" 0 -850 60 H V C CNN
 $FPLIST
@@ -192,11 +192,11 @@ X P9 9 -250 700 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# beagle-wire-rescue:C
+# C
 #
-DEF beagle-wire-rescue:C C 0 10 N Y 1 F N
+DEF C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "beagle-wire-rescue:C" 25 -100 50 H V L CNN
+F1 "C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -210,11 +210,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# beagle-wire-rescue:CONN_02X06
+# CONN_02X06
 #
-DEF beagle-wire-rescue:CONN_02X06 J 0 1 Y N 1 F N
+DEF CONN_02X06 J 0 1 Y N 1 F N
 F0 "J" 0 350 50 H V C CNN
-F1 "beagle-wire-rescue:CONN_02X06" 0 -350 50 H V C CNN
+F1 "CONN_02X06" 0 -350 50 H V C CNN
 F2 "" 0 -1200 50 H I C CNN
 F3 "" 0 -1200 50 H I C CNN
 $FPLIST
@@ -253,11 +253,11 @@ X P9 9 -250 -150 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# beagle-wire-rescue:C_Small
+# C_Small
 #
-DEF beagle-wire-rescue:C_Small C 0 10 N N 1 F N
+DEF C_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "beagle-wire-rescue:C_Small" 10 -80 50 H V L CNN
+F1 "C_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -271,11 +271,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# beagle-wire-rescue:D
+# D
 #
-DEF beagle-wire-rescue:D D 0 40 N N 1 F N
+DEF D D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "beagle-wire-rescue:D" 0 -100 50 H V C CNN
+F1 "D" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -294,11 +294,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# beagle-wire-rescue:GND
+# GND
 #
-DEF beagle-wire-rescue:GND #PWR 0 0 Y Y 1 F P
+DEF GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "beagle-wire-rescue:GND" 0 -150 50 H V C CNN
+F1 "GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -307,11 +307,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# beagle-wire-rescue:Grove
+# Grove
 #
-DEF beagle-wire-rescue:Grove GR 0 40 Y Y 1 F N
+DEF Grove GR 0 40 Y Y 1 F N
 F0 "GR" -50 50 60 H V C CNN
-F1 "beagle-wire-rescue:Grove" 150 -250 60 V V C CNN
+F1 "Grove" 150 -250 60 V V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -323,11 +323,11 @@ X GND 4 -350 -400 200 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# beagle-wire-rescue:JUMPER
+# JUMPER
 #
-DEF beagle-wire-rescue:JUMPER JP 0 30 Y N 1 F N
+DEF JUMPER JP 0 30 Y N 1 F N
 F0 "JP" 0 150 50 H V C CNN
-F1 "beagle-wire-rescue:JUMPER" 0 -80 50 H V C CNN
+F1 "JUMPER" 0 -80 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -339,11 +339,11 @@ X 2 2 300 0 165 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# beagle-wire-rescue:LED_Small
+# LED_Small
 #
-DEF beagle-wire-rescue:LED_Small D 0 10 N N 1 F N
+DEF LED_Small D 0 10 N N 1 F N
 F0 "D" -50 125 50 H V L CNN
-F1 "beagle-wire-rescue:LED_Small" -175 -100 50 H V L CNN
+F1 "LED_Small" -175 -100 50 H V L CNN
 F2 "" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST
@@ -361,11 +361,11 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# beagle-wire-rescue:M25PX32-VMW
+# M25PX32-VMW
 #
-DEF beagle-wire-rescue:M25PX32-VMW U 0 40 Y Y 1 F N
+DEF M25PX32-VMW U 0 40 Y Y 1 F N
 F0 "U" -400 400 50 H V C CNN
-F1 "beagle-wire-rescue:M25PX32-VMW" 300 -400 50 H V C CNN
+F1 "M25PX32-VMW" 300 -400 50 H V C CNN
 F2 "Housings_SOIC:SOIJ-8_5.3x5.3mm_Pitch1.27mm" 650 50 50 H I C CNN
 F3 "" 150 -100 50 H I C CNN
 $FPLIST
@@ -384,11 +384,11 @@ X VCC 8 0 500 150 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# beagle-wire-rescue:MCP1826S-RESCUE-beagle-wire
+# MCP1826S-RESCUE-beagle-wire
 #
-DEF beagle-wire-rescue:MCP1826S-RESCUE-beagle-wire U 0 40 Y Y 1 F N
+DEF MCP1826S-RESCUE-beagle-wire U 0 40 Y Y 1 F N
 F0 "U" 0 250 50 H V C CNN
-F1 "beagle-wire-rescue:MCP1826S-RESCUE-beagle-wire" 400 -250 50 H V C CNN
+F1 "MCP1826S-RESCUE-beagle-wire" 400 -250 50 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 $FPLIST
@@ -405,11 +405,11 @@ X GND 4 300 -100 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# beagle-wire-rescue:MT48LC32M8A2P
+# MT48LC32M8A2P
 #
-DEF beagle-wire-rescue:MT48LC32M8A2P U 0 40 Y Y 1 F N
+DEF MT48LC32M8A2P U 0 40 Y Y 1 F N
 F0 "U" -600 1200 50 H V C CNN
-F1 "beagle-wire-rescue:MT48LC32M8A2P" 650 -1200 50 H V C CNN
+F1 "MT48LC32M8A2P" 650 -1200 50 H V C CNN
 F2 "TSOPII-54" 0 0 50 H I C CIN
 F3 "" 0 -250 50 H I C CNN
 DRAW
@@ -461,11 +461,11 @@ X VDDQ 9 100 1300 150 D 40 40 1 1 W
 ENDDRAW
 ENDDEF
 #
-# beagle-wire-rescue:Mounting_Hole
+# Mounting_Hole
 #
-DEF beagle-wire-rescue:Mounting_Hole MK 0 40 Y Y 1 F N
+DEF Mounting_Hole MK 0 40 Y Y 1 F N
 F0 "MK" 0 200 50 H V C CNN
-F1 "beagle-wire-rescue:Mounting_Hole" 0 125 50 H V C CNN
+F1 "Mounting_Hole" 0 125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -477,11 +477,11 @@ C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #
-# beagle-wire-rescue:R
+# R
 #
-DEF beagle-wire-rescue:R R 0 0 N Y 1 F N
+DEF R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "beagle-wire-rescue:R" 0 0 50 V V C CNN
+F1 "R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -495,11 +495,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# beagle-wire-rescue:SN74LVC2G14
+# SN74LVC2G14
 #
-DEF beagle-wire-rescue:SN74LVC2G14 U 0 40 Y Y 1 F N
+DEF SN74LVC2G14 U 0 40 Y Y 1 F N
 F0 "U" -150 0 60 H V C CNN
-F1 "beagle-wire-rescue:SN74LVC2G14" 50 -500 60 H V C CNN
+F1 "SN74LVC2G14" 50 -500 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -513,11 +513,11 @@ X 1Y 6 400 -150 200 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# beagle-wire-rescue:SW_DIP_x02
+# SW_DIP_x02
 #
-DEF beagle-wire-rescue:SW_DIP_x02 SW 0 0 Y N 1 F N
+DEF SW_DIP_x02 SW 0 0 Y N 1 F N
 F0 "SW" 0 250 50 H V C CNN
-F1 "beagle-wire-rescue:SW_DIP_x02" 0 -150 50 H V C CNN
+F1 "SW_DIP_x02" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -538,11 +538,11 @@ X ~ 4 300 100 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# beagle-wire-rescue:SW_PUSH
+# SW_PUSH
 #
-DEF beagle-wire-rescue:SW_PUSH SW 0 40 N N 1 F N
+DEF SW_PUSH SW 0 40 N N 1 F N
 F0 "SW" 150 110 50 H V C CNN
-F1 "beagle-wire-rescue:SW_PUSH" 0 -80 50 H V C CNN
+F1 "SW_PUSH" 0 -80 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -553,11 +553,11 @@ X 2 2 300 0 200 L 50 50 0 1 P I
 ENDDRAW
 ENDDEF
 #
-# beagle-wire-rescue:SYS_5V
+# SYS_5V
 #
-DEF beagle-wire-rescue:SYS_5V #PWR 0 0 Y Y 1 F P
+DEF SYS_5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "beagle-wire-rescue:SYS_5V" 0 140 50 H V C CNN
+F1 "SYS_5V" 0 140 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -568,11 +568,11 @@ X SYS_5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# beagle-wire-rescue:iCE40-HX4K-TQ144
+# iCE40-HX4K-TQ144
 #
-DEF beagle-wire-rescue:iCE40-HX4K-TQ144 U 0 40 Y Y 6 L N
+DEF iCE40-HX4K-TQ144 U 0 40 Y Y 6 L N
 F0 "U" 200 250 60 H V L CNN
-F1 "beagle-wire-rescue:iCE40-HX4K-TQ144" 200 150 60 H V L CNN
+F1 "iCE40-HX4K-TQ144" 200 150 60 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
