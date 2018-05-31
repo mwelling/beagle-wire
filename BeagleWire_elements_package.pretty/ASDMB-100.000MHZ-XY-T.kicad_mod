@@ -1,5 +1,5 @@
-(module ASDMB-100.000MHZ-XY-T (layer F.Cu) (tedit 59204624)
-  (fp_text reference Y** (at 1.7 2.1) (layer F.SilkS)
+(module ASDMB-100.000MHZ-XY-T (layer F.Cu) (tedit 5B0F6F68)
+  (fp_text reference REF** (at 1.7 2.1) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value OSC (at 0 0) (layer F.Fab)
