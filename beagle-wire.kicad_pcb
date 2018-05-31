@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.0.0-rc2-21-g8f5cb32)")
+(kicad_pcb (version 20171130) (host pcbnew "(2018-02-05 revision d1a45d147)-makepkg")
 
   (general
     (thickness 1.6)
@@ -64,7 +64,7 @@
     (pad_size 1.7272 1.7272)
     (pad_drill 1.016)
     (pad_to_mask_clearance 0)
-    (aux_axis_origin 0 0)
+    (aux_axis_origin 112.27562 125.49378)
     (visible_elements 7FFFEFFF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
