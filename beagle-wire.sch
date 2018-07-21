@@ -2617,7 +2617,7 @@ F 1 "CONN_02X06" H 15150 3250 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Angled_2x06" H 15150 2400 50  0001 C CNN
 F 3 "" H 15150 2400 50  0000 C CNN
 	1    15150 3600
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 $Comp
 L beagle-wire:CONN_02X06 P4
@@ -2698,21 +2698,21 @@ F 3 "" H 15950 4750 60  0000 C CNN
 	1    15950 4750
 	0    1    1    0   
 $EndComp
-Text GLabel 4600 4300 0    50   Input ~ 0
-PMOD3_B1
-Text GLabel 4600 4500 0    50   Input ~ 0
-PMOD3_B2
-Text GLabel 4600 4700 0    50   Input ~ 0
-PMOD3_B3
-Text GLabel 4600 5900 0    50   Input ~ 0
-PMOD3_B4
 Text GLabel 7150 7100 0    50   Input ~ 0
-PMOD3_A1
+PMOD3_B1
 Text GLabel 4600 4400 0    50   Input ~ 0
-PMOD3_A2
+PMOD3_B2
 Text GLabel 4600 4600 0    50   Input ~ 0
-PMOD3_A3
+PMOD3_B3
 Text GLabel 4600 5800 0    50   Input ~ 0
+PMOD3_B4
+Text GLabel 4600 4300 0    50   Input ~ 0
+PMOD3_A1
+Text GLabel 4600 4500 0    50   Input ~ 0
+PMOD3_A2
+Text GLabel 4600 4700 0    50   Input ~ 0
+PMOD3_A3
+Text GLabel 4600 5900 0    50   Input ~ 0
 PMOD3_A4
 Text GLabel 9100 1300 0    50   Input ~ 0
 PMOD4_A1
