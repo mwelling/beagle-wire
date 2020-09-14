@@ -15,6 +15,3 @@ _autosave-*
 # Autorouter files (exported from Pcbnew)
 .dsn
 
-# Exported BOM files
-*.xml
-*.csv
